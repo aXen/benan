@@ -1,0 +1,22 @@
+# NOTE
+# 需要启用rewrite_module
+# 可以把以下内容直接配置到httpd.conf中去
+Options +FollowSymLinks 
+IndexIgnore */* 
+RewriteEngine on 
+
+# NOTE: 
+# 如果应用不是部署在根目录，则必须配置，可能跟.htaccess目录继承有关
+# 不使用RewriteBase: internal redirect with F:/workspace/website/demo.axen.cn/testdrive/webapp/index.php 
+# 使用RewriteBase: internal redirect with /testdrive/index.php 
+RewriteBase /benan
+
+# if a directory or a file exists, use it directly 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+# otherwise forward it to index.php 
+# 所有请求Rewrite
+RewriteRule . index.php
+# Rewrite *.html请求
+#RewriteRule ^.*\.html index.php
