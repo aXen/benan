@@ -2,7 +2,7 @@
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
     <title>本安亚大</title>
     <link rel="stylesheet" type="text/css" href="css/lrtk.css">
     <link type="text/css" href="css/base.css" rel="stylesheet"/>
@@ -133,7 +133,7 @@
 <body>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr>
-    <td height="87" background="/images/0.jpg">
+    <td height="87" background="images/0.jpg">
         <?php echo $this->renderPartial('_header', array(
             'dataProvider'=>$dataProvider,
         )); ?><!-- header -->
@@ -154,7 +154,7 @@
     </td>
 </tr>
 <tr>
-    <td align="center" valign="top" background="/images/5.jpg">
+    <td align="center" valign="top" background="images/5.jpg">
         <?php echo $this->renderPartial('_footer'); ?><!-- footer -->
     </td>
 </tr>

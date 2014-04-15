@@ -31,6 +31,7 @@ return array(
     ),
 
     'modules' => array(
+        'admin',
         // uncomment the following to enable the Gii tool
         'gii' => array(
             'class' => 'system.gii.GiiModule',
@@ -51,7 +52,8 @@ return array(
     'components' => array(
         'user' => array(
             // enable cookie-based authentication
-            'allowAutoLogin' => true
+            'allowAutoLogin' => true,
+            'loginUrl' => '../home/login',
         ),
         // uncomment the following to enable URLs in path-format
         /*
@@ -69,6 +71,7 @@ return array(
             'showScriptName'=>false,//注意false不要用引号括上
 //            'urlSuffix'=>'.php',
             'rules' => array(
+                'news/<id:\d+>\.html' => 'site/viewnews',
                 // REST patterns
                 array('api/list', 'pattern' => 'api/<model:\w+>', 'verb' => 'GET'),
                 array('api/view', 'pattern' => 'api/<model:\w+>/<id:\d+>', 'verb' => 'GET'),

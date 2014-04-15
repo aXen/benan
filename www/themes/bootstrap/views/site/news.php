@@ -4,8 +4,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>本安亚大</title>
-    <link rel="stylesheet" type="text/css" href="css/lrtk.css">
-    <link type="text/css" href="css/base.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="/css/lrtk.css">
+    <link type="text/css" href="/css/base.css" rel="stylesheet"/>
     <!-- dd menu -->
     <script type="text/javascript">
         <!--
@@ -120,8 +120,8 @@
             font-size: 14px;
         }
     </style>
-    <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
-    <script src="js/jquery.kinMaxShow-1.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.kinMaxShow-1.1.min.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript">
         $(function () {
             $("#kinMaxShow").kinMaxShow();
@@ -132,32 +132,33 @@
 
 <body>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
-<tr>
-    <td height="87" background="/images/0.jpg">
-        <?php echo $this->renderPartial('_header', array(
-            'dataProvider'=>$dataProvider,
-        )); ?><!-- header -->
-    </td>
-</tr>
-<tr>
-    <td>
-        <?php echo $this->renderPartial('_hero', array(
-            'dataProvider'=>$dataProvider,
-        )); ?><!-- hero -->
-    </td>
-</tr>
-<tr>
-    <td bgcolor="#FFFFFF">
-        <?php echo $this->renderPartial('_content', array(
-            'dataProvider'=>$dataProvider,
-        )); ?><!-- content -->
-    </td>
-</tr>
-<tr>
-    <td align="center" valign="top" background="/images/5.jpg">
-        <?php echo $this->renderPartial('_footer'); ?><!-- footer -->
-    </td>
-</tr>
+    <tr>
+        <td height="87" background="/images/0.jpg">
+            <?php echo $this->renderPartial('_header', array(
+                'dataProvider'=>$dataProvider,
+            )); ?><!-- header -->
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <?php echo $this->renderPartial('_hero', array(
+                'dataProvider'=>$dataProvider,
+            )); ?><!-- hero -->
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#FFFFFF">
+            <?php echo $this->renderPartial('_newscontent', array(
+                'dataProvider'=>$dataProvider,
+                'model'=>$model,
+            )); ?><!-- content -->
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" background="/images/5.jpg">
+            <?php echo $this->renderPartial('_footer'); ?><!-- footer -->
+        </td>
+    </tr>
 </table>
 </body>
 </html>
