@@ -17,7 +17,7 @@ class FileController extends AdminController
 {
     public function actionUpload()
     {
-        $folder = Yii::getPathOfAlias('webroot') . '/assets/files/'; // folder for uploaded files
+        $folder = Yii::getPathOfAlias('webroot') . '/upload/'; // folder for uploaded files
 
         if (!is_dir($folder)) {
             mkdir($folder);
@@ -35,7 +35,7 @@ class FileController extends AdminController
      */
     public function actionUploadPicture()
     {
-        $folder = Yii::getPathOfAlias('webroot') . '/assets/files/pictures/'; // folder for uploaded files
+        $folder = Yii::getPathOfAlias('webroot') . '/images/heros/'; // folder for uploaded files
 
         if (!is_dir($folder)) {
             mkdir($folder);

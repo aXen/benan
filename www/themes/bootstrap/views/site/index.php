@@ -143,6 +143,7 @@
     <td>
         <?php echo $this->renderPartial('_hero', array(
             'dataProvider'=>$dataProvider,
+            'heros'=>$heros,
         )); ?><!-- hero -->
     </td>
 </tr>

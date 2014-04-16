@@ -35,16 +35,34 @@ class SiteController extends Controller
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
         $dataProvider=new CActiveDataProvider('News');
+        $criteria=new CDbCriteria;
+//        $criteria->select='title';  // 只选择 'title' 列
+//        $criteria->condition='postID=:postID';
+//        $criteria->params=array(':postID'=>10);
+        $criteria->limit = 6;
+        $criteria->offset = 0;
+        $heros=Hero::model()->findAll($criteria); // $params 不需要了
+//        $heros = Hero::model()->query
 		$this->render('index',array(
             'dataProvider'=>$dataProvider,
+            'heros'=>$heros,
         ));
 	}
 
     public function actionViewNews($id)
     {
         $dataProvider=new CActiveDataProvider('News');
+        $criteria=new CDbCriteria;
+//        $criteria->select='title';  // 只选择 'title' 列
+//        $criteria->condition='postID=:postID';
+//        $criteria->params=array(':postID'=>10);
+        $criteria->limit = 6;
+        $criteria->offset = 0;
+        $heros=Hero::model()->findAll($criteria); // $params 不需要了
+//        $heros = Hero::model()->query
         $this->render('news',array(
             'dataProvider'=>$dataProvider,
+            'heros'=>$heros,
             'model'=>$this->loadModel($id),
         ));
     }

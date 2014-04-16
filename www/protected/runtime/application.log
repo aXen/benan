@@ -6657,3 +6657,197 @@ Stack trace:
 REQUEST_URI=/benan/news/images/line1.jpg
 HTTP_REFERER=http://demo.axen.cn:88/benan/news/7.html
 ---
+2014/04/16 02:16:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/index.php?XDEBUG_SESSION_START=19985
+---
+2014/04/16 02:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/index.php?XDEBUG_SESSION_START=19985
+---
+2014/04/16 02:24:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/index.php?XDEBUG_SESSION_START=19985
+---
+2014/04/16 02:24:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "themes/bootstrap/images/Logo.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/themes/bootstrap/images/Logo.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin/home
+---
+2014/04/16 02:26:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/index.php?XDEBUG_SESSION_START=19985
+---
+2014/04/16 02:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/index.php?XDEBUG_SESSION_START=19985
+---
+2014/04/16 02:29:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/index.php?XDEBUG_SESSION_START=19985
+---
+2014/04/16 02:30:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/index.php?XDEBUG_SESSION_START=19985
+---
+2014/04/16 02:34:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/index.php?XDEBUG_SESSION_START=19985
+---
+2014/04/16 02:35:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/index.php?XDEBUG_SESSION_START=19985
+---
+2014/04/16 02:37:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/index.php?XDEBUG_SESSION_START=19985
+---
+2014/04/16 02:38:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/index.php?XDEBUG_SESSION_START=19985
+---
+2014/04/16 02:40:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "themes/bootstrap/images/Logo.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/themes/bootstrap/images/Logo.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin/hero/create
+---
+2014/04/16 02:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "themes/bootstrap/images/Logo.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/themes/bootstrap/images/Logo.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin/hero/index
+---
+2014/04/16 02:42:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/
+---
+2014/04/16 02:43:09 [error] [php] Undefined variable: heros (F:\workspace\pingz\benan\www\themes\bootstrap\views\site\_hero.php:4)
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile()
+#1 F:\workspace\pingz\benan\framework\web\CController.php(869): SiteController->renderFile()
+#2 F:\workspace\pingz\benan\www\themes\bootstrap\views\site\news.php(146): SiteController->renderPartial()
+#3 F:\workspace\pingz\benan\framework\web\CBaseController.php(126): require()
+#4 F:\workspace\pingz\benan\www\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): SiteController->renderInternal()
+#5 F:\workspace\pingz\benan\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile()
+#6 F:\workspace\pingz\benan\framework\web\CController.php(869): SiteController->renderFile()
+#7 F:\workspace\pingz\benan\framework\web\CController.php(782): SiteController->renderPartial()
+#8 F:\workspace\pingz\benan\www\protected\controllers\SiteController.php(58): SiteController->render()
+#9 unknown(0): SiteController->actionViewNews()
+#10 F:\workspace\pingz\benan\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#11 F:\workspace\pingz\benan\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#12 F:\workspace\pingz\benan\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 F:\workspace\pingz\benan\framework\web\CController.php(286): SiteController->runAction()
+#14 F:\workspace\pingz\benan\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 F:\workspace\pingz\benan\framework\web\CWebApplication.php(282): SiteController->run()
+#16 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 F:\workspace\pingz\benan\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/benan/news/6.html
+in F:\workspace\pingz\benan\www\themes\bootstrap\views\site\_hero.php (4)
+in F:\workspace\pingz\benan\www\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php (40)
+in F:\workspace\pingz\benan\www\themes\bootstrap\views\site\news.php (146)
+2014/04/16 02:44:12 [error] [php] Undefined variable: heros (F:\workspace\pingz\benan\www\themes\bootstrap\views\site\_hero.php:4)
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile()
+#1 F:\workspace\pingz\benan\framework\web\CController.php(869): SiteController->renderFile()
+#2 F:\workspace\pingz\benan\www\themes\bootstrap\views\site\news.php(146): SiteController->renderPartial()
+#3 F:\workspace\pingz\benan\framework\web\CBaseController.php(126): require()
+#4 F:\workspace\pingz\benan\www\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): SiteController->renderInternal()
+#5 F:\workspace\pingz\benan\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile()
+#6 F:\workspace\pingz\benan\framework\web\CController.php(869): SiteController->renderFile()
+#7 F:\workspace\pingz\benan\framework\web\CController.php(782): SiteController->renderPartial()
+#8 F:\workspace\pingz\benan\www\protected\controllers\SiteController.php(67): SiteController->render()
+#9 unknown(0): SiteController->actionViewNews()
+#10 F:\workspace\pingz\benan\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#11 F:\workspace\pingz\benan\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#12 F:\workspace\pingz\benan\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 F:\workspace\pingz\benan\framework\web\CController.php(286): SiteController->runAction()
+#14 F:\workspace\pingz\benan\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 F:\workspace\pingz\benan\framework\web\CWebApplication.php(282): SiteController->run()
+#16 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 F:\workspace\pingz\benan\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/benan/news/6.html
+in F:\workspace\pingz\benan\www\themes\bootstrap\views\site\_hero.php (4)
+in F:\workspace\pingz\benan\www\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php (40)
+in F:\workspace\pingz\benan\www\themes\bootstrap\views\site\news.php (146)
+2014/04/16 02:44:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "news/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/lin...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/news/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/6.html
+---
