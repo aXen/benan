@@ -67,6 +67,42 @@ class SiteController extends Controller
         ));
     }
 
+    public function actionProducts()
+    {
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=1');
+        $category=$categories[0];
+        $this->render('products',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$category,
+        ));
+    }
+
+    public function actionViewCategory($id)
+    {
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=1');
+        $category=Category::model()->findAll('id='.$id)[0];
+        $this->render('products',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$category,
+        ));
+    }
+
+    public function actionViewProduct($id)
+    {
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=1');
+        $product=Product::model()->findAll('id='.$id)[0];
+        $this->render('product',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$product,
+        ));
+    }
+
     public function loadModel($id)
     {
         $model=News::model()->findByPk($id);

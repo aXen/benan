@@ -995,9 +995,9 @@ class CController extends CBaseController
 			return $this->_pageTitle;
 		else
 		{
-			$name=ucfirst(basename($this->getId()));
+			$name=Yii::t('schema', ucfirst(basename($this->getId())));
 			if($this->getAction()!==null && strcasecmp($this->getAction()->getId(),$this->defaultAction))
-				return $this->_pageTitle=Yii::app()->name.' - '.ucfirst($this->getAction()->getId()).' '.$name;
+				return $this->_pageTitle=Yii::app()->name.' - '.Yii::t('app',ucfirst($this->getAction()->getId())).' '.$name;
 			else
 				return $this->_pageTitle=Yii::app()->name.' - '.$name;
 		}

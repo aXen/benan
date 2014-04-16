@@ -54,6 +54,7 @@ class Category extends CActiveRecord
             'parent' => array(self::BELONGS_TO, 'Category', 'parent_id'),
             'children' => array(self::HAS_MANY, 'Category', 'parent_id'),
             'childCount' => array(self::STAT, 'Category', 'parent_id'),
+            'products' => array(self::HAS_MANY, 'Product', 'category_id'),
         );
 	}
 

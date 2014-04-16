@@ -71,7 +71,10 @@ return array(
             'showScriptName'=>false,//注意false不要用引号括上
 //            'urlSuffix'=>'.php',
             'rules' => array(
+                'products' => 'site/products',
                 'news/<id:\d+>\.html' => 'site/viewnews',
+                'product/<id:\d+>\.html' => 'site/viewproduct',
+                'category/<id:\d+>\.html' => 'site/viewcategory',
                 // REST patterns
                 array('api/list', 'pattern' => 'api/<model:\w+>', 'verb' => 'GET'),
                 array('api/view', 'pattern' => 'api/<model:\w+>/<id:\d+>', 'verb' => 'GET'),
