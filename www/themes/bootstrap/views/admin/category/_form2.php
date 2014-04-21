@@ -10,7 +10,9 @@
 
 	<?php echo $form->textFieldRow($model,'name',array('class'=>'span5','maxlength'=>200)); ?>
 
+<div style="display: none;">
 	<?php echo $form->textFieldRow($model,'parent_id',array('class'=>'span5')); ?>
+</div>
 
 <!--	--><?php //echo $form->textFieldRow($model,'status',array('class'=>'span5','maxlength'=>16)); ?>
 <!---->

@@ -69,7 +69,7 @@ class CategoryController extends AdminController
 		if(isset($_POST['Category']))
 		{
             $aModel=array_merge($_POST['Category'], self::getCreateContext());
-			$model->attributes=$aModel;
+            $model->attributes=$aModel;
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}

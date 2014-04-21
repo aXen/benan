@@ -18,7 +18,7 @@
                 array('label'=>'内容管理', 'url'=>'#', 'items'=>array(  /* NOTE: i18n */
                     array('label'=>'首页图片', 'url'=>array('hero/index')),  /* NOTE: relative */
                     array('label'=>'新闻管理', 'url'=>array('news/index')),
-                    array('label'=>'留言管理', 'url'=>array('note/index')),
+                    array('label'=>'留言管理', 'url'=>array('feedback/index')),
                     '---',
                     array('label'=>'菜单配置', 'url'=>array('menu/index')),
                 )),

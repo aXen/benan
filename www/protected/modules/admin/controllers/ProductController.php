@@ -6,7 +6,7 @@ class ProductController extends AdminController
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-//	public $layout='protected/modules/admin/views/layouts/column2.php';
+//	public $layout='layouts/column2';
 
 	/**
 	 * @return array action filters
@@ -74,8 +74,11 @@ class ProductController extends AdminController
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
+        $categories=Category::model()->findAll('parent_id=0');
+
 		$this->render('create',array(
 			'model'=>$model,
+            'categories'=>$categories,
 		));
 	}
 
@@ -98,8 +101,11 @@ class ProductController extends AdminController
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
+        $categories=Category::model()->findAll('parent_id=0');
+
 		$this->render('update',array(
 			'model'=>$model,
+            'categories'=>$categories,
 		));
 	}
 

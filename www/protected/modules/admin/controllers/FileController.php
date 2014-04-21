@@ -29,7 +29,6 @@ class FileController extends AdminController
         echo CJSON::encode(uniqid());
     }
 
-
     /**
      * 上传图片
      */
@@ -43,6 +42,25 @@ class FileController extends AdminController
 
         $model = new Hero;
         $file = CUploadedFile::getInstance($model, 'picture');
+        CFileHelper::getExtension($file->name);
+        $filePath = $folder . uniqid() .".". CFileHelper::getExtension($file->name);
+        $file->saveAs($filePath);
+        echo basename($filePath);
+    }
+
+    /**
+     * 上传图片
+     */
+    public function actionUploadproductimage()
+    {
+        $folder = Yii::getPathOfAlias('webroot') . '/images/products/'; // folder for uploaded files
+
+        if (!is_dir($folder)) {
+            mkdir($folder);
+        }
+
+        $model = new Product();
+        $file = CUploadedFile::getInstance($model, 'image');
         CFileHelper::getExtension($file->name);
         $filePath = $folder . uniqid() .".". CFileHelper::getExtension($file->name);
         $file->saveAs($filePath);

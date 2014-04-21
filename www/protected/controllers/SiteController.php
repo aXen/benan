@@ -67,10 +67,133 @@ class SiteController extends Controller
         ));
     }
 
+    public function actionIntro()
+    {
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=0');
+        $category=$categories[0];
+        $this->render('intro',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$category,
+        ));
+    }
+
+    public function actionOrgs()
+    {
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=0');
+        $category=$categories[0];
+        $this->render('orgs',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$category,
+        ));
+    }
+
+    public function actionHonour()
+    {
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=0');
+        $category=$categories[0];
+        $this->render('honour',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$category,
+        ));
+    }
+
+    public function actionTeam()
+    {
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=0');
+        $category=$categories[0];
+        $this->render('team',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$category,
+        ));
+    }
+
+    public function actionCulture()
+    {
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=0');
+        $category=$categories[0];
+        $this->render('culture',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$category,
+        ));
+    }
+
+    public function actionSupport()
+    {
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=0');
+        $category=$categories[0];
+        $this->render('support',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$category,
+        ));
+    }
+
+    public function actionFeedback()
+    {
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=0');
+        $category=$categories[0];
+        $this->render('feedback',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$category,
+        ));
+    }
+
+
+    public function actionMall()
+    {
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=0');
+        $category=$categories[0];
+        $this->render('mall',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$category,
+        ));
+    }
+
+
+    public function actionNetwork()
+    {
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=0');
+        $category=$categories[0];
+        $this->render('network',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$category,
+        ));
+    }
+
+
+    public function actionCases()
+    {
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=0');
+        $category=$categories[0];
+        $this->render('cases',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$category,
+        ));
+    }
+
     public function actionProducts()
     {
         $dataProvider=new CActiveDataProvider('Product');
-        $categories=Category::model()->findAll('parent_id=1');
+        $categories=Category::model()->findAll('parent_id=0');
         $category=$categories[0];
         $this->render('products',array(
             'dataProvider'=>$dataProvider,
@@ -79,10 +202,58 @@ class SiteController extends Controller
         ));
     }
 
+    public function actionCompanyNews()
+    {
+        $dataProvider=new CActiveDataProvider('News');
+        $criteria=new CDbCriteria;
+        $criteria->condition='type=:typeid';
+        $criteria->params=array(':typeid'=>1);
+        $criteria->limit = 5;
+        $criteria->offset = 0;
+        $dataProvider->criteria = $criteria;
+        $news=News::model()->findAll('type=1');
+        $this->render('companynews',array(
+            'dataProvider'=>$dataProvider,
+            'news'=>$news,
+        ));
+    }
+
+    public function actionIndustryNews()
+    {
+        $dataProvider=new CActiveDataProvider('News');
+        $criteria=new CDbCriteria;
+        $criteria->condition='type=:typeid';
+        $criteria->params=array(':typeid'=>2);
+        $criteria->limit = 5;
+        $criteria->offset = 0;
+        $dataProvider->criteria = $criteria;
+        $news=News::model()->findAll('type=2');
+        $this->render('industrynews',array(
+            'dataProvider'=>$dataProvider,
+            'news'=>$news,
+        ));
+    }
+
+    public function actionMediaNews()
+    {
+        $dataProvider=new CActiveDataProvider('News');
+        $criteria=new CDbCriteria;
+        $criteria->condition='type=:typeid';
+        $criteria->params=array(':typeid'=>3);
+        $criteria->limit = 5;
+        $criteria->offset = 0;
+        $dataProvider->criteria = $criteria;
+        $news=News::model()->findAll('type=3');
+        $this->render('medianews',array(
+            'dataProvider'=>$dataProvider,
+            'news'=>$news,
+        ));
+    }
+
     public function actionViewCategory($id)
     {
         $dataProvider=new CActiveDataProvider('Product');
-        $categories=Category::model()->findAll('parent_id=1');
+        $categories=Category::model()->findAll('parent_id=0');
         $category=Category::model()->findAll('id='.$id)[0];
         $this->render('products',array(
             'dataProvider'=>$dataProvider,
@@ -94,7 +265,7 @@ class SiteController extends Controller
     public function actionViewProduct($id)
     {
         $dataProvider=new CActiveDataProvider('Product');
-        $categories=Category::model()->findAll('parent_id=1');
+        $categories=Category::model()->findAll('parent_id=0');
         $product=Product::model()->findAll('id='.$id)[0];
         $this->render('product',array(
             'dataProvider'=>$dataProvider,
@@ -130,24 +301,32 @@ class SiteController extends Controller
 	 */
 	public function actionContact()
 	{
-		$model=new ContactForm;
-		if(isset($_POST['ContactForm']))
-		{
-			$model->attributes=$_POST['ContactForm'];
-			if($model->validate())
-			{
-				$name='=?UTF-8?B?'.base64_encode($model->name).'?=';
-				$subject='=?UTF-8?B?'.base64_encode($model->subject).'?=';
-				$headers="From: $name <{$model->email}>\r\n".
-					"Reply-To: {$model->email}\r\n".
-					"MIME-Version: 1.0\r\n".
-					"Content-Type: text/plain; charset=UTF-8";
-
-				mail(Yii::app()->params['adminEmail'],$subject,$model->body,$headers);
-				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
-				$this->refresh();
-			}
-		}
-		$this->render('contact',array('model'=>$model));
+        $dataProvider=new CActiveDataProvider('Product');
+        $categories=Category::model()->findAll('parent_id=0');
+        $category=$categories[0];
+        $this->render('contact',array(
+            'dataProvider'=>$dataProvider,
+            'categories'=>$categories,
+            'model'=>$category,
+        ));
+//		$model=new ContactForm;
+//		if(isset($_POST['ContactForm']))
+//		{
+//			$model->attributes=$_POST['ContactForm'];
+//			if($model->validate())
+//			{
+//				$name='=?UTF-8?B?'.base64_encode($model->name).'?=';
+//				$subject='=?UTF-8?B?'.base64_encode($model->subject).'?=';
+//				$headers="From: $name <{$model->email}>\r\n".
+//					"Reply-To: {$model->email}\r\n".
+//					"MIME-Version: 1.0\r\n".
+//					"Content-Type: text/plain; charset=UTF-8";
+//
+//				mail(Yii::app()->params['adminEmail'],$subject,$model->body,$headers);
+//				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
+//				$this->refresh();
+//			}
+//		}
+//		$this->render('contact',array('model'=>$model));
 	}
 }

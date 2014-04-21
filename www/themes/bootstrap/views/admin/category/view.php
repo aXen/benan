@@ -21,6 +21,7 @@ $this->menu=array(
 		'id',
 		'name',
 		'parent_id',
+		'class_name',
 		'status',
 		'creator',
 		'create_time',

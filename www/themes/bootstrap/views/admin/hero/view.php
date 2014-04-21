@@ -20,14 +20,15 @@ $this->menu=array(
 	'attributes'=>array(
 		'id',
 		'title',
-		'description',
 		'picture',
+		'description',
+		'href',
+		'hit',
+		'rank',
 		'status',
 		'creator',
 		'create_time',
 		'modifier',
 		'modify_time',
-		'hit',
-		'rank',
 	),
 )); ?>

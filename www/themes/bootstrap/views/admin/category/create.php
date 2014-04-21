@@ -1,12 +1,12 @@
 <?php
-$this->breadcrumbs = array(
-    '产品分类' => array('index'),
-    '创建',
+$this->breadcrumbs=array(
+	'产品分类'=>array('index'),
+	'创建',
 );
 
-$this->menu = array(
-    array('label' => '产品分类列表', 'url' => array('index')),
-    array('label' => '管理产品分类', 'url' => array('admin')),
+$this->menu=array(
+	array('label'=>'产品分类列表','url'=>array('index')),
+	array('label'=>'管理产品分类','url'=>array('admin')),
 );
 ?>
 

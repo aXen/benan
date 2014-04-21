@@ -72,6 +72,8 @@ return array(
 //            'urlSuffix'=>'.php',
             'rules' => array(
                 'products' => 'site/products',
+                'cases' => 'site/cases',
+                'news' => 'site/news',
                 'news/<id:\d+>\.html' => 'site/viewnews',
                 'product/<id:\d+>\.html' => 'site/viewproduct',
                 'category/<id:\d+>\.html' => 'site/viewcategory',
@@ -89,7 +91,9 @@ return array(
             'connectionString' => 'sqlite:' . dirname(__FILE__) . '/../data/benan.db',
             // 性能监控
             'enableProfiling' => true,
-            'enableParamLogging' => true
+            'enableParamLogging' => true,
+            // ..
+            'charset' => 'utf8',
         ),
         // uncomment the following to use a MySQL database
         /*

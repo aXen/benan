@@ -165,16 +165,17 @@
                         <td width="749" align="left" valign="top">
                             <table width="720" border="0" cellspacing="0" cellpadding="0">
                                 <tr>
-                                    <td height="40" align="left" valign="middle" background="images/line1.jpg"><span
-                                            class="STYLE5">UV产品</span></td>
+                                    <td height="40" align="left" valign="middle" background="/images/line1.jpg"><span
+                                            class="STYLE5"><?php echo $model->name; ?></span></td>
                                 </tr>
                             </table>
                             <table width="721" height="15" border="0" cellpadding="0" cellspacing="0">
                                 <tr>
+                                    <td align="center" valign="top"><img src="<?php echo $this->createUrl('images/products/' . $model->image); ?>" width="500" height="434" /></td>
+                                </tr>
+                                <tr>
                                     <td align="left" valign="top">
-                                        <?php echo $this->renderPartial('_productdetail', array(
-                                            'model' => $model,
-                                        )); ?><!-- product -->
+                                        <?php echo $model->description; ?><!-- product -->
                                     </td>
                                 </tr>
                             </table>

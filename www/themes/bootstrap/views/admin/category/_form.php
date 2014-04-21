@@ -3,23 +3,15 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="help-block">带 <span class="required">*</span> 字段是必填的。</p>
+	<p class="help-block">带 <span class="required">*</span> 是必填的。</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<?php echo $form->textFieldRow($model,'name',array('class'=>'span5','maxlength'=>200)); ?>
+	<?php echo $form->textFieldRow($model,'name',array('class'=>'span5','maxlength'=>200, 'placeholder'=>'请输入'.$model->getAttributeLabel('name'))); ?>
 
-	<?php echo $form->textFieldRow($model,'parent_id',array('class'=>'span5')); ?>
+	<?php echo $form->textFieldRow($model,'parent_id',array('class'=>'span5', 'placeholder'=>'请输入'.$model->getAttributeLabel('parent_id'))); ?>
 
-<!--	--><?php //echo $form->textFieldRow($model,'status',array('class'=>'span5','maxlength'=>16)); ?>
-<!---->
-<!--	--><?php //echo $form->textFieldRow($model,'creator',array('class'=>'span5','maxlength'=>32)); ?>
-<!---->
-<!--	--><?php //echo $form->textFieldRow($model,'create_time',array('class'=>'span5')); ?>
-<!---->
-<!--	--><?php //echo $form->textFieldRow($model,'modifier',array('class'=>'span5','maxlength'=>16)); ?>
-<!---->
-<!--	--><?php //echo $form->textFieldRow($model,'modify_time',array('class'=>'span5')); ?>
+	<?php echo $form->textFieldRow($model,'class_name',array('class'=>'span5','maxlength'=>200, 'placeholder'=>'请输入'.$model->getAttributeLabel('class_name'))); ?>
 
 	<div class="form-actions">
 		<?php $this->widget('bootstrap.widgets.TbButton', array(

@@ -161,7 +161,7 @@ class XTreeBehavior extends CActiveRecordBehavior
     public function getRootId()
     {
         $owner=$this->getOwner();
-        $root=$owner->find($this->parent_id.'=0');
+        $root=$owner->find($this->parent_id.'=-1');
         return $root->id;
     }
 

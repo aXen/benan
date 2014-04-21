@@ -9,7 +9,11 @@
 
 	<?php echo $form->textFieldRow($model,'category_id',array('class'=>'span5', 'placeholder'=>'请输入'.$model->getAttributeLabel('category_id'))); ?>
 
+	<?php echo $form->textFieldRow($model,'category_name',array('class'=>'span5','maxlength'=>200, 'placeholder'=>'请输入'.$model->getAttributeLabel('category_name'))); ?>
+
 	<?php echo $form->textAreaRow($model,'description',array('rows'=>6, 'cols'=>50, 'class'=>'span8')); ?>
+
+	<?php echo $form->textFieldRow($model,'image',array('class'=>'span5','maxlength'=>200, 'placeholder'=>'请输入'.$model->getAttributeLabel('image'))); ?>
 
 	<?php echo $form->dropDownListRow($model,'status',array('100'=>'正常', '-1'=>'已删除'), array('class'=>'span5 selectpicker','maxlength'=>16, 'placeholder'=>'请输入'.$model->getAttributeLabel('status'))); ?>
 

@@ -12,7 +12,7 @@ if ($model->products !== null)
                         ?>
                         <td height="16" align="center" valign="top"><a
                                 href="<?php echo $this->createUrl('product/' . $product->id . '.html'); ?>"><img
-                                    src="/images/P１.jpg" width="150" height="200" border="0"/></a></td>
+                                    src="<?php echo $this->createUrl('images/products/' . $product->image); ?>" width="150" height="200" border="0"/></a></td>
                     <?php
                     }
                 }

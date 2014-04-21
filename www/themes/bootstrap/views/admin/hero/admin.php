@@ -55,16 +55,17 @@ $('.search-form form').submit(function(){
 	'columns'=>array(
 		'id',
 		'title',
-		'description',
 		'picture',
+		'description',
+		'href',
+		'hit',
+		/*
+		'rank',
 		'status',
 		'creator',
-		/*
 		'create_time',
 		'modifier',
 		'modify_time',
-		'hit',
-		'rank',
 		*/
 		array(
 			'class'=>'bootstrap.widgets.TbButtonColumn',

@@ -12,6 +12,10 @@
 	<?php echo CHtml::encode($data->parent_id); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('class_name')); ?>:</b>
+	<?php echo CHtml::encode($data->class_name); ?>
+	<br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('status')); ?>:</b>
 	<?php echo CHtml::encode($data->status); ?>
 	<br />
@@ -24,11 +28,11 @@
 	<?php echo CHtml::encode($data->create_time); ?>
 	<br />
 
+	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('modifier')); ?>:</b>
 	<?php echo CHtml::encode($data->modifier); ?>
 	<br />
 
-	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('modify_time')); ?>:</b>
 	<?php echo CHtml::encode($data->modify_time); ?>
 	<br />

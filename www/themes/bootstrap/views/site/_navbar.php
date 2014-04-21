@@ -4,8 +4,8 @@
             <div align="center">
                 <ul id="sddm">
                     <li><a href="<?php echo $this->createUrl('/'); ?>">首页</a></li>
-                    <li><a href="#" onmouseover="mopen('m1')"
-                           onmouseout="mclosetime()">公司简介</a>
+                    <li><a href="<?php echo $this->createUrl('intro'); ?>" onmouseover="mopen('m1')"
+                           onmouseout="mclosetime()">关于亚大</a>
 
 <!--                        <div id="m1" onmouseover="mcancelclosetime()"-->
 <!--                             onmouseout="mclosetime()">-->
@@ -14,7 +14,7 @@
 <!--                                href="#">二级菜单五</a>-->
 <!--                        </div>-->
                     </li>
-                    <li><a href="<?php echo $this->createUrl('news'); ?>" onmouseover="mopen('m2')"
+                    <li><a href="<?php echo $this->createUrl('companynews'); ?>" onmouseover="mopen('m2')"
                            onmouseout="mclosetime()">新闻动态</a>
 
 <!--                        <div id="m2" onmouseover="mcancelclosetime()"-->

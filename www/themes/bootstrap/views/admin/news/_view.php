@@ -12,6 +12,23 @@
 	<?php echo CHtml::encode($data->content); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('type')); ?>:</b>
+	<?php echo CHtml::encode($data->type); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('type_name')); ?>:</b>
+	<?php echo CHtml::encode($data->type_name); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('hit')); ?>:</b>
+	<?php echo CHtml::encode($data->hit); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('rank')); ?>:</b>
+	<?php echo CHtml::encode($data->rank); ?>
+	<br />
+
+	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('status')); ?>:</b>
 	<?php echo CHtml::encode($data->status); ?>
 	<br />
@@ -28,17 +45,8 @@
 	<?php echo CHtml::encode($data->modifier); ?>
 	<br />
 
-	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('modify_time')); ?>:</b>
 	<?php echo CHtml::encode($data->modify_time); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('hit')); ?>:</b>
-	<?php echo CHtml::encode($data->hit); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('rank')); ?>:</b>
-	<?php echo CHtml::encode($data->rank); ?>
 	<br />
 
 	*/ ?>

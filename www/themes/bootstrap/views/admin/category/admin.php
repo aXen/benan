@@ -1,7 +1,6 @@
 <?php
 $cs=Yii::app()->clientScript;
-$baseUrl = Yii::app()->baseUrl;
-// datetimepicker
+$baseUrl = Yii::app()->baseUrl;// datetimepicker
 $cs->registerScriptFile($baseUrl.'/widgets/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js', CClientScript::POS_END, array('charset'=>'UTF-8'));
 $cs->registerScriptFile($baseUrl.'/widgets/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js', CClientScript::POS_END, array('charset'=>'UTF-8'));
 $cs->registerCssFile($baseUrl.'/widgets/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css');
@@ -9,7 +8,6 @@ $cs->registerCssFile($baseUrl.'/widgets/bootstrap-datetimepicker/css/bootstrap-d
 $cs->registerScriptFile($baseUrl.'/widgets/bootstrap-select/bootstrap-select.js', CClientScript::POS_END, array('charset'=>'UTF-8'));
 //$cs->registerScriptFile($baseUrl.'/widgets/bootstrap-select/bootstrap-select.js', CClientScript::POS_END, array('charset'=>'UTF-8'));
 $cs->registerCssFile($baseUrl.'/widgets/bootstrap-select/bootstrap-select.css');
-
 ?>
 <?php
 $this->breadcrumbs=array(
@@ -39,7 +37,7 @@ $('.search-form form').submit(function(){
 <h1>管理 产品分类</h1>
 
 <p>
-你可以在要查询的值前输入 比较符（<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
+    你可以在要查询的值前输入 比较符（<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
     or <b>=</b>） 来指定如何比较
 </p>
 
@@ -58,10 +56,11 @@ $('.search-form form').submit(function(){
 		'id',
 		'name',
 		'parent_id',
+		'class_name',
 		'status',
 		'creator',
-		'create_time',
 		/*
+		'create_time',
 		'modifier',
 		'modify_time',
 		*/

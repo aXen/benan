@@ -1,3 +1,13 @@
+<?php
+$cs=Yii::app()->clientScript;
+$baseUrl = Yii::app()->baseUrl;
+
+// select
+$cs->registerScriptFile($baseUrl.'/widgets/bootstrap-select/bootstrap-select.js', CClientScript::POS_END, array('charset'=>'UTF-8'));
+//$cs->registerScriptFile($baseUrl.'/widgets/bootstrap-select/bootstrap-select.js', CClientScript::POS_END, array('charset'=>'UTF-8'));
+$cs->registerCssFile($baseUrl.'/widgets/bootstrap-select/bootstrap-select.css');
+?>
+
 <?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm',array(
 	'id'=>'news-form',
 	'enableAjaxValidation'=>false,
@@ -23,9 +33,17 @@
         # Additional Parameters
     ) ); ?>
 
-	<?php echo $form->textFieldRow($model,'hit',array('class'=>'span5', 'placeholder'=>'请输入'.$model->getAttributeLabel('hit'))); ?>
+<?php echo $form->dropDownListRow($model,'type',array('1'=>'企业新闻', '2'=>'行业动态', '3'=>'媒体报道'), array('class'=>'span5 selectpicker','maxlength'=>16, 'placeholder'=>'请输入'.$model->getAttributeLabel('type'))); ?>
 
-	<?php echo $form->textFieldRow($model,'rank',array('class'=>'span5', 'placeholder'=>'请输入'.$model->getAttributeLabel('rank'))); ?>
+<!--	--><?php //echo $form->textFieldRow($model,'type',array('class'=>'span5', 'placeholder'=>'请输入'.$model->getAttributeLabel('type'))); ?>
+
+<div style="display:none;">
+	<?php echo $form->textFieldRow($model,'type_name',array('class'=>'span5','maxlength'=>200, 'placeholder'=>'请输入'.$model->getAttributeLabel('type_name'))); ?>
+</div>
+
+<!--	--><?php //echo $form->textFieldRow($model,'hit',array('class'=>'span5', 'placeholder'=>'请输入'.$model->getAttributeLabel('hit'))); ?>
+
+    <?php echo $form->dropDownListRow($model,'rank',array('1'=>'1', '2'=>'2', '3'=>'3', '4'=>'4', '5'=>'5'), array('class'=>'span5 selectpicker','maxlength'=>16, 'placeholder'=>'请输入'.$model->getAttributeLabel('rank'))); ?>
 
 	<div class="form-actions">
 		<?php $this->widget('bootstrap.widgets.TbButton', array(
@@ -36,3 +54,9 @@
 	</div>
 
 <?php $this->endWidget(); ?>
+
+<script type="text/javascript">
+    $(function(){
+        $('.selectpicker').selectpicker();
+    });
+</script>

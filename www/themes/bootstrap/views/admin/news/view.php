@@ -25,13 +25,15 @@ $this->menu=array(
 		'id',
 		'title',
 		'content',
+		'type',
+		'type_name',
+		'hit',
+		'rank',
 		'status',
 		'creator',
 		'create_time',
 		'modifier',
 		'modify_time',
-		'hit',
-		'rank',
 	),
 )); ?>
 

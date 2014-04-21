@@ -1,67 +1,250 @@
-<?php
-/* @var $this SiteController */
-/* @var $model ContactForm */
-/* @var $form TbActiveForm */
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>本安亚大</title>
+    <link rel="stylesheet" type="text/css" href="/css/lrtk.css">
+    <link type="text/css" href="/css/base.css" rel="stylesheet"/>
+    <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css"
+          rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"/>
+    <!-- dd menu -->
+    <script type="text/javascript">
+        <!--
+        var timeout = 500;
+        var closetimer = 0;
+        var ddmenuitem = 0;
 
-$this->pageTitle=Yii::app()->name . ' - Contact Us';
-$this->breadcrumbs=array(
-	'Contact',
-);
-?>
+        // open hidden layer
+        function mopen(id) {
+            // cancel close timer
+            mcancelclosetime();
 
-<h1>Contact Us</h1>
+            // close old layer
+            if (ddmenuitem) ddmenuitem.style.visibility = 'hidden';
 
-<?php if(Yii::app()->user->hasFlash('contact')): ?>
+            // get new layer and show it
+            ddmenuitem = document.getElementById(id);
+            ddmenuitem.style.visibility = 'visible';
 
-    <?php $this->widget('bootstrap.widgets.TbAlert', array(
-        'alerts'=>array('contact'),
-    )); ?>
+        }
+        // close showed layer
+        function mclose() {
+            if (ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+        }
 
-<?php else: ?>
+        // go close timer
+        function mclosetime() {
+            closetimer = window.setTimeout(mclose, timeout);
+        }
 
-<p>
-If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
-</p>
+        // cancel close timer
+        function mcancelclosetime() {
+            if (closetimer) {
+                window.clearTimeout(closetimer);
+                closetimer = null;
+            }
+        }
 
-<div class="form">
+        // close layer when click-out
+        document.onclick = mclose;
+        // -->
+    </script>
+    <style type="text/css">
+        <!--
+        a {
+            font-family: 'Microsoft Yahei';
+            font-size: 12px;
+            color: #333333;
+        }
 
-<?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
-	'id'=>'contact-form',
-    'type'=>'horizontal',
-	'enableClientValidation'=>true,
-	'clientOptions'=>array(
-		'validateOnSubmit'=>true,
-	),
-)); ?>
+        a:link {
+            text-decoration: none;
+        }
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+        a:visited {
+            text-decoration: none;
+            color: #666666;
+        }
 
-	<?php echo $form->errorSummary($model); ?>
+        a:hover {
+            text-decoration: underline;
+            color: #0066FF;
+        }
 
-    <?php echo $form->textFieldRow($model,'name'); ?>
+        a:active {
+            text-decoration: none;
+        }
 
-    <?php echo $form->textFieldRow($model,'email'); ?>
+        .style4 {
+            color: #FF3300;
+        }
 
-    <?php echo $form->textFieldRow($model,'subject',array('size'=>60,'maxlength'=>128)); ?>
+        -->
+    </style>
+    <style type="text/css">
+        #kinMaxShow {
+            visibility: hidden;
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+        }
 
-    <?php echo $form->textAreaRow($model,'body',array('rows'=>6, 'class'=>'span8')); ?>
+        body {
+            background-color: #F1F1F1;
+        }
 
-	<?php if(CCaptcha::checkRequirements()): ?>
-		<?php echo $form->captchaRow($model,'verifyCode',array(
-            'hint'=>'Please enter the letters as they are shown in the image above.<br/>Letters are not case-sensitive.',
-        )); ?>
-	<?php endif; ?>
+        .STYLE2 {
+            color: #666666;
+            line-height: 20px;
+        }
 
-	<div class="form-actions">
-		<?php $this->widget('bootstrap.widgets.TbButton',array(
-            'buttonType'=>'submit',
-            'type'=>'primary',
-            'label'=>'Submit',
-        )); ?>
-	</div>
+        .STYLE3 {
+            color: #333333;
+        }
 
-<?php $this->endWidget(); ?>
+        .STYLE5 {
+            color: #000000;
+        }
 
-</div><!-- form -->
+        .STYLE6 {
+            font-size: 14px;
+            color: #000000;
+            font-weight: bold;
+        }
 
-<?php endif; ?>
+        .STYLE8 {
+            font-size: 12;
+        }
+
+        .STYLE9 {
+            color: #000000;
+            font-size: 14px;
+        }
+    </style>
+    <script src="/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.kinMaxShow-1.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#kinMaxShow").kinMaxShow();
+        });
+
+    </script>
+</head>
+
+<body onload="initialize()">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td height="87" background="/images/0.jpg">
+            <?php echo $this->renderPartial('_header', array(
+                'dataProvider' => $dataProvider,
+            )); ?><!-- header -->
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top">
+            <img src="/images/Products.jpg" width="1034" height="400"/>
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#FFFFFF">
+            <div align="center">
+                <table width="996" cellpadding="0" cellspacing="8">
+                    <tr>
+                        <td width="221" align="left" valign="top">
+                            <table width="200" border="0" cellpadding="0" cellspacing="1">
+                                <tr>
+                                    <td height="25" bgcolor="#D5E1EE">
+                                        <div align="center" class="fn-fs-14">关于亚大</div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="200" border="0" cellpadding="0" cellspacing="1">
+                                <tr>
+                                    <td height="25" bgcolor="#F2F2F2">
+                                        <div align="center" class="fn-fs-14"><a href="intro">企业简介</a></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="200" border="0" cellpadding="0" cellspacing="1">
+                                <tr>
+                                    <td height="25" bgcolor="#F2F2F2">
+                                        <div align="center" class="fn-fs-14"><a href="team">管理团队</a></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="200" border="0" cellpadding="0" cellspacing="1">
+                                <tr>
+                                    <td height="25" bgcolor="#F2F2F2">
+                                        <div align="center" class="fn-fs-14"><a href="orgs">组织机构</a></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="200" border="0" cellpadding="0" cellspacing="1">
+                                <tr>
+                                    <td height="25" bgcolor="#F2F2F2">
+                                        <div align="center" class="fn-fs-14"><a href="honour">企业荣誉</a></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="200" border="0" cellpadding="0" cellspacing="1">
+                                <tr>
+                                    <td height="25" bgcolor="#F2F2F2">
+                                        <div align="center" class="fn-fs-14"><a href="culture">企业文化</a></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="200" border="0" cellpadding="0" cellspacing="1">
+                                <tr>
+                                    <td height="25" bgcolor="#F2F2F2">
+                                        <div align="center" class="fn-fs-14"><a href="contact">联系我们</a></div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br/>
+                        </td>
+                        <td width="749" align="left" valign="top">
+                            <table width="720" border="0" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                <tr>
+                                    <td height="40" align="left" valign="middle" background="/images/line1.jpg"><span
+                                            class="STYLE5">联系我们</span></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table width="721" height="15" border="0" cellpadding="0" cellspacing="0">
+                                <tbody>
+                                <tr>
+                                    <td align="left" valign="top">
+                                        <div id="container" style="width: 600px; height: 400px;">
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="top" background="/images/5.jpg">
+            <?php echo $this->renderPartial('_footer'); ?><!-- footer -->
+        </td>
+    </tr>
+</table>
+<script type="text/javascript">
+    function initialize() {
+        var point = new google.maps.LatLng(28.215514, 113.070778);            // location, （纬度, 经度）
+        var option = {
+            zoom: 12,
+            center: point,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var obj = document.getElementById("container");                       // container
+        var map = new google.maps.Map(obj, option);                           // show map
+    }
+</script>
+</body>
+</html>

@@ -6,15 +6,16 @@
  * The followings are the available columns in table 'tbl_hero':
  * @property integer $id
  * @property string $title
- * @property string $description
  * @property string $picture
+ * @property string $description
+ * @property string $href
+ * @property integer $hit
+ * @property integer $rank
  * @property string $status
  * @property string $creator
  * @property string $create_time
  * @property string $modifier
  * @property string $modify_time
- * @property integer $hit
- * @property integer $rank
  */
 class Hero extends CActiveRecord
 {
@@ -37,14 +38,14 @@ class Hero extends CActiveRecord
 			array('title, description', 'required'),
 			array('hit, rank', 'numerical', 'integerOnly'=>true),
 			array('title', 'length', 'max'=>200),
+			array('picture, href', 'length', 'max'=>128),
 			array('description', 'length', 'max'=>2000),
-			array('picture', 'length', 'max'=>128),
 			array('status, modifier', 'length', 'max'=>16),
 			array('creator', 'length', 'max'=>32),
 			array('create_time, modify_time', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, title, description, picture, status, creator, create_time, modifier, modify_time, hit, rank', 'safe', 'on'=>'search'),
+			array('id, title, picture, description, href, hit, rank, status, creator, create_time, modifier, modify_time', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -67,15 +68,16 @@ class Hero extends CActiveRecord
 		return array(
 			'id' => '编号',
 			'title' => '标题',
-			'description' => '描述',
 			'picture' => '图片',
+			'description' => '描述',
+			'href' => '链接',
+			'hit' => '点击次数',
+			'rank' => '排名',
 			'status' => '状态',
 			'creator' => '创建者',
 			'create_time' => '创建时间',
 			'modifier' => '更新者',
 			'modify_time' => '更新时间',
-			'hit' => '点击次数',
-			'rank' => '排名',
 		);
 	}
 
@@ -99,15 +101,16 @@ class Hero extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('title',$this->title,true);
-		$criteria->compare('description',$this->description,true);
 		$criteria->compare('picture',$this->picture,true);
+		$criteria->compare('description',$this->description,true);
+		$criteria->compare('href',$this->href,true);
+		$criteria->compare('hit',$this->hit);
+		$criteria->compare('rank',$this->rank);
 		$criteria->compare('status',$this->status,true);
 		$criteria->compare('creator',$this->creator,true);
 		$criteria->compare('create_time',$this->create_time,true);
 		$criteria->compare('modifier',$this->modifier,true);
 		$criteria->compare('modify_time',$this->modify_time,true);
-		$criteria->compare('hit',$this->hit);
-		$criteria->compare('rank',$this->rank);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

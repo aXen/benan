@@ -6,9 +6,15 @@
  * The followings are the available columns in table 'tbl_menu':
  * @property integer $id
  * @property string $title
+ * @property string $description
  * @property integer $parent_id
  * @property integer $level
+ * @property string $level_class
+ * @property string $single_page
+ * @property string $predefined
+ * @property string $page_content
  * @property string $href
+ * @property integer $hit
  * @property string $status
  * @property string $creator
  * @property string $create_time
@@ -34,15 +40,16 @@ class Menu extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('title, parent_id, level', 'required'),
-			array('parent_id, level', 'numerical', 'integerOnly'=>true),
-			array('title', 'length', 'max'=>200),
+			array('parent_id, level, hit', 'numerical', 'integerOnly'=>true),
+			array('title, level_class', 'length', 'max'=>200),
+			array('single_page, predefined', 'length', 'max'=>1),
 			array('href', 'length', 'max'=>128),
 			array('status, modifier', 'length', 'max'=>16),
 			array('creator', 'length', 'max'=>32),
-			array('create_time, modify_time', 'safe'),
+			array('description, page_content, create_time, modify_time', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, title, parent_id, level, href, status, creator, create_time, modifier, modify_time', 'safe', 'on'=>'search'),
+			array('id, title, description, parent_id, level, level_class, single_page, predefined, page_content, href, hit, status, creator, create_time, modifier, modify_time', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -65,9 +72,15 @@ class Menu extends CActiveRecord
 		return array(
 			'id' => '编号',
 			'title' => '标题',
+			'description' => '描述',
 			'parent_id' => '父类',
 			'level' => '级别',
+			'level_class' => '级别class',
+			'single_page' => '是否单页面',
+			'predefined' => '系统预定义',
+			'page_content' => '页面内容',
 			'href' => '链接',
+			'hit' => '点击次数',
 			'status' => '状态',
 			'creator' => '创建者',
 			'create_time' => '创建时间',
@@ -96,9 +109,15 @@ class Menu extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('title',$this->title,true);
+		$criteria->compare('description',$this->description,true);
 		$criteria->compare('parent_id',$this->parent_id);
 		$criteria->compare('level',$this->level);
+		$criteria->compare('level_class',$this->level_class,true);
+		$criteria->compare('single_page',$this->single_page,true);
+		$criteria->compare('predefined',$this->predefined,true);
+		$criteria->compare('page_content',$this->page_content,true);
 		$criteria->compare('href',$this->href,true);
+		$criteria->compare('hit',$this->hit);
 		$criteria->compare('status',$this->status,true);
 		$criteria->compare('creator',$this->creator,true);
 		$criteria->compare('create_time',$this->create_time,true);

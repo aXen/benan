@@ -56,10 +56,12 @@ $('.search-form form').submit(function(){
 		'id',
 		'name',
 		'category_id',
+		'category_name',
 		'description',
+		'image',
+		/*
 		'status',
 		'creator',
-		/*
 		'create_time',
 		'modifier',
 		'modify_time',

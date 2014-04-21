@@ -7,6 +7,7 @@
  * @property integer $id
  * @property string $name
  * @property integer $parent_id
+ * @property string $class_name
  * @property string $status
  * @property string $creator
  * @property string $create_time
@@ -33,13 +34,13 @@ class Category extends CActiveRecord
 		return array(
 			array('name, parent_id', 'required'),
 			array('parent_id', 'numerical', 'integerOnly'=>true),
-			array('name', 'length', 'max'=>200),
+			array('name, class_name', 'length', 'max'=>200),
 			array('status, modifier', 'length', 'max'=>16),
 			array('creator', 'length', 'max'=>32),
 			array('create_time, modify_time', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, name, parent_id, status, creator, create_time, modifier, modify_time', 'safe', 'on'=>'search'),
+			array('id, name, parent_id, class_name, status, creator, create_time, modifier, modify_time', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -67,11 +68,12 @@ class Category extends CActiveRecord
 			'id' => '编号',
 			'name' => '名称',
 			'parent_id' => '父类',
+			'class_name' => 'class名称',
 			'status' => '状态',
 			'creator' => '创建者',
 			'create_time' => '创建时间',
-			'modifier' => '修改者',
-			'modify_time' => '修改时间',
+			'modifier' => '更新者',
+			'modify_time' => '更新时间',
 		);
 	}
 
@@ -96,6 +98,7 @@ class Category extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('name',$this->name,true);
 		$criteria->compare('parent_id',$this->parent_id);
+		$criteria->compare('class_name',$this->class_name,true);
 		$criteria->compare('status',$this->status,true);
 		$criteria->compare('creator',$this->creator,true);
 		$criteria->compare('create_time',$this->create_time,true);
