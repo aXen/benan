@@ -9750,3 +9750,727 @@ Stack trace:
 REQUEST_URI=/benan/news/images/line1.jpg
 HTTP_REFERER=http://demo.axen.cn:88/benan/news/3.html
 ---
+2014/04/22 06:46:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "themes/bootstrap/images/Logo.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/themes/bootstrap/images/Logo.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin
+---
+2014/04/22 06:47:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "themes/bootstrap/images/Logo.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/themes/bootstrap/images/Logo.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin/hero/view/id/7
+---
+2014/04/22 06:50:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "category/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('category/images...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/category/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/category/5.html
+---
+2014/04/22 06:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "category/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('category/images...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/category/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/category/5.html
+---
+2014/04/22 06:52:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "category/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('category/images...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/category/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/category/7.html
+---
+2014/04/22 06:53:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "themes/bootstrap/images/Logo.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/themes/bootstrap/images/Logo.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin/product/view/id/4
+---
+2014/04/22 06:53:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "category/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('category/images...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/category/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/category/7.html
+---
+2014/04/22 06:54:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "category/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('category/images...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/category/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/category/1.html
+---
+2014/04/22 06:55:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "category/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('category/images...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/category/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/category/1.html
+---
+2014/04/22 06:57:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "category/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('category/images...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/category/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/category/4.html
+---
+2014/04/22 07:20:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "themes/bootstrap/images/Logo.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/themes/bootstrap/images/Logo.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin
+---
+2014/04/22 07:20:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "themes/bootstrap/images/Logo.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/themes/bootstrap/images/Logo.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin
+---
+2014/04/23 14:13:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/
+---
+2014/04/23 14:14:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/
+---
+2014/04/23 14:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/
+---
+2014/04/23 14:48:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/
+---
+2014/04/23 14:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/
+---
+2014/04/23 14:49:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/
+---
+2014/04/23 16:26:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "themes/bootstrap/images/Logo.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/themes/bootstrap/images/Logo.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin
+---
+2014/04/23 16:30:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "news/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/lin...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/news/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/4.html
+---
+2014/04/23 16:34:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "news/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/lin...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/news/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/5.html
+---
+2014/04/23 16:35:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "news/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/lin...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/news/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/10.html
+---
+2014/04/23 16:35:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "news/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/lin...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/news/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/9.html
+---
+2014/04/23 16:36:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "news/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/lin...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/news/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/9.html
+---
+2014/04/23 16:40:56 [error] [exception.CException] exception 'CException' with message '属性 "CPagination.offset" 是只读的.' in F:\workspace\pingz\benan\framework\base\CComponent.php:170
+Stack trace:
+#0 F:\workspace\pingz\benan\www\protected\controllers\SiteController.php(46): CComponent->__set('offset', 0)
+#1 F:\workspace\pingz\benan\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 F:\workspace\pingz\benan\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 F:\workspace\pingz\benan\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 F:\workspace\pingz\benan\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 F:\workspace\pingz\benan\framework\web\CWebApplication.php(282): CController->run('')
+#6 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#7 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#9 {main}
+REQUEST_URI=/benan/
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/9.html
+---
+2014/04/23 16:43:01 [error] [exception.CException] exception 'CException' with message '属性 "CActiveDataProvider.order" 未被定义.' in F:\workspace\pingz\benan\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CActiveDataProvider.php(96): CComponent->__set('order', 'create_time des...')
+#1 F:\workspace\pingz\benan\www\protected\controllers\SiteController.php(48): CActiveDataProvider->__construct('News', Array)
+#2 F:\workspace\pingz\benan\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 F:\workspace\pingz\benan\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\workspace\pingz\benan\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 F:\workspace\pingz\benan\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 F:\workspace\pingz\benan\framework\web\CWebApplication.php(282): CController->run('')
+#7 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#10 {main}
+REQUEST_URI=/benan/
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/9.html
+---
+2014/04/23 16:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "news/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/lin...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/news/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/10.html
+---
+2014/04/23 16:45:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "news" 动作.' in F:\workspace\pingz\benan\framework\web\CController.php:483
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CController.php(270): CController->missingAction('news')
+#1 F:\workspace\pingz\benan\framework\web\CWebApplication.php(282): CController->run('news')
+#2 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('site/news')
+#3 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/benan/news
+---
+2014/04/23 16:45:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "companynews"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('companynews')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/companynews
+---
+2014/04/23 16:49:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "news/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/lin...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/news/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/6.html
+---
+2014/04/23 16:49:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "news/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/lin...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/news/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/7.html
+---
+2014/04/23 16:49:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "news/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/lin...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/news/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/8.html
+---
+2014/04/23 16:49:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "news/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/lin...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/news/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/9.html
+---
+2014/04/23 16:49:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "js/jquery-1.10.2.min.map"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.10....')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/js/jquery-1.10.2.min.map
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/9.html
+---
+2014/04/23 16:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "news/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('news/images/lin...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/news/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/news/9.html
+---
+2014/04/23 17:05:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "themes/bootstrap/images/Logo.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/themes/bootstrap/images/Logo.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin/news/create
+---
+2014/04/23 17:05:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "case" 动作.' in F:\workspace\pingz\benan\framework\web\CController.php:483
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CController.php(270): CController->missingAction('case')
+#1 F:\workspace\pingz\benan\framework\web\CWebApplication.php(282): CController->run('case')
+#2 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/case...')
+#3 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/benan/admin/news/case/index
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin/news/create
+---
+2014/04/23 17:06:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "case" 动作.' in F:\workspace\pingz\benan\framework\web\CController.php:483
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CController.php(270): CController->missingAction('case')
+#1 F:\workspace\pingz\benan\framework\web\CWebApplication.php(282): CController->run('case')
+#2 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/case')
+#3 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/benan/admin/news/case
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin/news/create
+---
+2014/04/23 17:06:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin/case"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/case')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/admin/case
+---
+2014/04/23 17:06:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "admin/cases"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/cases')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/admin/cases
+---
+2014/04/23 17:07:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "usercase" 动作.' in F:\workspace\pingz\benan\framework\web\CController.php:483
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CController.php(270): CController->missingAction('usercase')
+#1 F:\workspace\pingz\benan\framework\web\CWebApplication.php(282): CController->run('usercase')
+#2 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/news/user...')
+#3 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/benan/admin/news/usercase/index
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin/news/create
+---
+2014/04/23 17:07:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "usercase/index"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('usercase/index')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/usercase/index
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin
+---
+2014/04/23 17:14:25 [error] [exception.CException] exception 'CException' with message '别名 "application.modules.admin.UserCase" 无效。请确认它指向一个存在的PHP文件。' in F:\workspace\pingz\benan\framework\YiiBase.php:322
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\gii\generators\crud\CrudCode.php(59): YiiBase::import('application.mod...', true)
+#1 F:\workspace\pingz\benan\framework\validators\CInlineValidator.php(42): CrudCode->validateModel('model', Array)
+#2 F:\workspace\pingz\benan\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(BenanCode), 'model')
+#3 F:\workspace\pingz\benan\framework\base\CModel.php(159): CValidator->validate(Object(BenanCode), NULL)
+#4 F:\workspace\pingz\benan\framework\gii\CCodeGenerator.php(159): CModel->validate()
+#5 F:\workspace\pingz\benan\framework\gii\CCodeGenerator.php(63): CCodeGenerator->prepare()
+#6 F:\workspace\pingz\benan\framework\web\actions\CInlineAction.php(49): CCodeGenerator->actionIndex()
+#7 F:\workspace\pingz\benan\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\workspace\pingz\benan\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\workspace\pingz\benan\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\workspace\pingz\benan\framework\web\CWebApplication.php(282): CController->run('index')
+#11 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('gii/benan/index')
+#12 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#14 {main}
+REQUEST_URI=/benan/gii/benan/index
+HTTP_REFERER=http://demo.axen.cn:88/benan/gii/benan/index
+---
+2014/04/23 17:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "themes/bootstrap/images/Logo.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/themes/bootstrap/images/Logo.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin/userCase/view/id/1
+---
+2014/04/23 17:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '系统无法找到请求的 "viewcasetype" 动作.' in F:\workspace\pingz\benan\framework\web\CController.php:483
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CController.php(270): CController->missingAction('viewcasetype')
+#1 F:\workspace\pingz\benan\framework\web\CWebApplication.php(282): CController->run('viewcasetype')
+#2 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('site/viewcasety...')
+#3 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#5 {main}
+REQUEST_URI=/benan/casestype/1.html
+HTTP_REFERER=http://demo.axen.cn:88/benan/cases
+---
+2014/04/23 17:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/1.html
+---
+2014/04/23 17:44:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/1.html
+---
+2014/04/23 17:44:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/casestype/1.html"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/cases...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/casestype/1.html
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/1.html
+---
+2014/04/23 17:45:48 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "createUlr".' in F:\workspace\pingz\benan\framework\base\CComponent.php:266
+Stack trace:
+#0 F:\workspace\pingz\benan\www\themes\bootstrap\views\site\cases.php(164): CComponent->__call('createUlr', Array)
+#1 F:\workspace\pingz\benan\www\themes\bootstrap\views\site\cases.php(164): SiteController->createUlr('casestype/1.htm...')
+#2 F:\workspace\pingz\benan\framework\web\CBaseController.php(126): require('F:\workspace\pi...')
+#3 F:\workspace\pingz\benan\www\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('F:\workspace\pi...', Array, true)
+#4 F:\workspace\pingz\benan\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(SiteController), 'F:\workspace\pi...', Array, true)
+#5 F:\workspace\pingz\benan\framework\web\CController.php(869): CBaseController->renderFile('F:\workspace\pi...', Array, true)
+#6 F:\workspace\pingz\benan\framework\web\CController.php(782): CController->renderPartial('cases', Array, true)
+#7 F:\workspace\pingz\benan\www\protected\controllers\SiteController.php(217): CController->render('cases', Array)
+#8 [internal function]: SiteController->actionCaseType('1')
+#9 F:\workspace\pingz\benan\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#10 F:\workspace\pingz\benan\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#11 F:\workspace\pingz\benan\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 F:\workspace\pingz\benan\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 F:\workspace\pingz\benan\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 F:\workspace\pingz\benan\framework\web\CWebApplication.php(282): CController->run('casetype')
+#15 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('site/casetype')
+#16 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#18 {main}
+REQUEST_URI=/benan/casestype/1.html
+HTTP_REFERER=http://demo.axen.cn:88/benan/cases
+---
+2014/04/23 17:45:57 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "createUlr".' in F:\workspace\pingz\benan\framework\base\CComponent.php:266
+Stack trace:
+#0 F:\workspace\pingz\benan\www\themes\bootstrap\views\site\cases.php(164): CComponent->__call('createUlr', Array)
+#1 F:\workspace\pingz\benan\www\themes\bootstrap\views\site\cases.php(164): SiteController->createUlr('casestype/1.htm...')
+#2 F:\workspace\pingz\benan\framework\web\CBaseController.php(126): require('F:\workspace\pi...')
+#3 F:\workspace\pingz\benan\www\protected\extensions\yii-debug-toolbar\YiiDebugViewRenderer.php(40): CBaseController->renderInternal('F:\workspace\pi...', Array, true)
+#4 F:\workspace\pingz\benan\framework\web\CBaseController.php(93): YiiDebugViewRenderer->renderFile(Object(SiteController), 'F:\workspace\pi...', Array, true)
+#5 F:\workspace\pingz\benan\framework\web\CController.php(869): CBaseController->renderFile('F:\workspace\pi...', Array, true)
+#6 F:\workspace\pingz\benan\framework\web\CController.php(782): CController->renderPartial('cases', Array, true)
+#7 F:\workspace\pingz\benan\www\protected\controllers\SiteController.php(204): CController->render('cases', Array)
+#8 F:\workspace\pingz\benan\framework\web\actions\CInlineAction.php(49): SiteController->actionCases()
+#9 F:\workspace\pingz\benan\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 F:\workspace\pingz\benan\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 F:\workspace\pingz\benan\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 F:\workspace\pingz\benan\framework\web\CWebApplication.php(282): CController->run('cases')
+#13 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('site/cases')
+#14 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#16 {main}
+REQUEST_URI=/benan/cases
+HTTP_REFERER=http://demo.axen.cn:88/benan/products
+---
+2014/04/23 17:46:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/1.html
+---
+2014/04/23 17:46:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/1.html
+---
+2014/04/23 17:46:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/1.html
+---
+2014/04/23 17:46:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/3.html
+---
+2014/04/23 17:47:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/4.html
+---
+2014/04/23 17:47:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/4.html
+---
+2014/04/23 17:49:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/4.html
+---
+2014/04/23 17:49:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/1.html
+---
+2014/04/23 17:49:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "themes/bootstrap/images/Logo.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/themes/bootstrap/images/Logo.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/admin/userCase/admin
+---
+2014/04/23 17:50:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/2.html
+---
+2014/04/23 17:51:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/products/5357db7f066ef.png"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('images/products...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/images/products/5357db7f066ef.png
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/2.html
+---
+2014/04/23 17:51:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/2.html
+---
+2014/04/23 17:52:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/2.html
+---
+2014/04/23 17:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/case/53538857a8a94.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('images/case/535...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/images/case/53538857a8a94.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/cases
+---
+2014/04/23 17:56:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/case/535401cae9ecb.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('images/case/535...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/images/case/535401cae9ecb.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/cases
+---
+2014/04/23 17:56:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/case/5354f9115f679.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('images/case/535...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/images/case/5354f9115f679.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/cases
+---
+2014/04/23 17:56:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/case/5355f5abced71.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('images/case/535...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/images/case/5355f5abced71.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/cases
+---
+2014/04/23 17:56:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/2.html
+---
+2014/04/23 17:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "images/products/5357db7f066ef.png"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('images/products...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/images/products/5357db7f066ef.png
+HTTP_REFERER=http://demo.axen.cn:88/benan/case/2.html
+---
+2014/04/23 17:58:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/4.html
+---
+2014/04/23 17:58:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/1.html
+---
+2014/04/23 17:58:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/2.html
+---
+2014/04/23 17:58:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/3.html
+---
+2014/04/23 17:58:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message '无法解析请求 "casestype/images/line1.jpg"。' in F:\workspace\pingz\benan\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\workspace\pingz\benan\framework\web\CWebApplication.php(141): CWebApplication->runController('casestype/image...')
+#1 F:\workspace\pingz\benan\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\workspace\pingz\benan\www\index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/benan/casestype/images/line1.jpg
+HTTP_REFERER=http://demo.axen.cn:88/benan/casestype/2.html
+---

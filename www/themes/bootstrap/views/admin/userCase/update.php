@@ -1,6 +1,6 @@
 <?php
 $this->breadcrumbs=array(
-	'User Cases'=>array('index'),
+	'施工案例'=>array('index'),
 	$model->name=>array('view','id'=>$model->id),
 	'更新',
 );

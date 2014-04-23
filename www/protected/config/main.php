@@ -72,10 +72,12 @@ return array(
 //            'urlSuffix'=>'.php',
             'rules' => array(
                 'products' => 'site/products',
+                'casestype/<id:\d+>\.html' => 'site/casetype',
                 'cases' => 'site/cases',
                 'news' => 'site/news',
                 'news/<id:\d+>\.html' => 'site/viewnews',
                 'product/<id:\d+>\.html' => 'site/viewproduct',
+                'case/<id:\d+>\.html' => 'site/viewcase',
                 'category/<id:\d+>\.html' => 'site/viewcategory',
                 // REST patterns
                 array('api/list', 'pattern' => 'api/<model:\w+>', 'verb' => 'GET'),

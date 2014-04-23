@@ -5,7 +5,7 @@
             <img src="/images/xw.jpg" width="64" height="21"/>
         </td>
         <td width="46" align="right" valign="middle" background="/images/line1.jpg"><a
-                href="News.html">
+                href="<?php echo $this->createUrl('companynews'); ?>">
                 <img src="/images/more.jpg" width="38" height="14"
                      border="0"/></a></td>
     </tr>

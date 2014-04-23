@@ -66,6 +66,25 @@ class FileController extends AdminController
         $file->saveAs($filePath);
         echo basename($filePath);
     }
+
+    /**
+     * 上传图片
+     */
+    public function actionUploadUserCaseImage()
+    {
+        $folder = Yii::getPathOfAlias('webroot') . '/images/case/'; // folder for uploaded files
+
+        if (!is_dir($folder)) {
+            mkdir($folder);
+        }
+
+        $model = new UserCase();
+        $file = CUploadedFile::getInstance($model, 'image');
+        CFileHelper::getExtension($file->name);
+        $filePath = $folder . uniqid() .".". CFileHelper::getExtension($file->name);
+        $file->saveAs($filePath);
+        echo basename($filePath);
+    }
 }
 
 ?>

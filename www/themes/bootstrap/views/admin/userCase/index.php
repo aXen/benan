@@ -1,6 +1,6 @@
 <?php
 $this->breadcrumbs=array(
-	'User Cases',
+	'施工案例',
 );
 
 $this->menu=array(
@@ -9,7 +9,7 @@ $this->menu=array(
 );
 ?>
 
-<h1>User Cases 列表</h1>
+<h1>施工案例 列表</h1>
 
 <?php $this->widget('bootstrap.widgets.TbListView',array(
 	'dataProvider'=>$dataProvider,

@@ -11,7 +11,7 @@ $cs->registerCssFile($baseUrl.'/widgets/bootstrap-select/bootstrap-select.css');
 ?>
 <?php
 $this->breadcrumbs=array(
-	'User Cases'=>array('index'),
+	'施工案例'=>array('index'),
 	'管理',
 );
 
@@ -34,7 +34,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>管理 User Cases</h1>
+<h1>管理 施工案例</h1>
 
 <p>
     你可以在要查询的值前输入 比较符（<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>

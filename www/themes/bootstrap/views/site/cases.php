@@ -153,27 +153,59 @@
                             <table width="200" border="0" cellpadding="0" cellspacing="1">
                                 <tr>
                                     <td height="25" bgcolor="#D5E1EE">
-                                        <div align="center" class="fn-fs-14">产品介绍</div>
+                                        <div align="center" class="fn-fs-14">施工案例</div>
                                     </td>
                                 </tr>
                             </table>
-                            <?php echo $this->renderPartial('_categoies', array(
-                                'categories' => $categories,
-                            )); ?><!-- categoies -->
-                            <br/>
+                            <table width="200" border="0" cellpadding="0" cellspacing="1">
+                                <tr>
+                                    <td height="25" bgcolor="#F2F2F2">
+                                        <div align="center" class="fn-fs-14">
+                                            <a href="<?php echo $this->createUrl('casestype/1.html'); ?>">桥梁、交通钢结构</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="200" border="0" cellpadding="0" cellspacing="1">
+                                <tr>
+                                    <td height="25" bgcolor="#F2F2F2">
+                                        <div align="center" class="fn-fs-14">
+                                            <a href="<?php echo $this->createUrl('casestype/2.html'); ?>">工程机械</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="200" border="0" cellpadding="0" cellspacing="1">
+                                <tr>
+                                    <td height="25" bgcolor="#F2F2F2">
+                                        <div align="center" class="fn-fs-14">
+                                            <a href="<?php echo $this->createUrl('casestype/3.html'); ?>">机械仪表</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table width="200" border="0" cellpadding="0" cellspacing="1">
+                                <tr>
+                                    <td height="25" bgcolor="#F2F2F2">
+                                        <div align="center" class="fn-fs-14">
+                                            <a href="<?php echo $this->createUrl('casestype/4.html'); ?>">厂房钢结构</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
                         </td>
                         <td width="749" align="left" valign="top">
                             <table width="720" border="0" cellspacing="0" cellpadding="0">
                                 <tr>
                                     <td height="40" align="left" valign="middle" background="images/line1.jpg"><span
-                                            class="STYLE5">UV产品</span></td>
+                                            class="STYLE5">桥梁、交通钢结构</span></td>
                                 </tr>
                             </table>
                             <table width="721" height="15" border="0" cellpadding="0" cellspacing="0">
                                 <tr>
                                     <td align="left" valign="top">
-                                        <?php echo $this->renderPartial('_productlist', array(
-                                            'model' => $model,
+                                        <?php echo $this->renderPartial('_caselist', array(
+                                            'dataProvider' => $dataProvider,
                                         )); ?><!-- product list -->
                                     </td>
                                 </tr>

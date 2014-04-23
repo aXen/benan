@@ -119,6 +119,16 @@
             color: #000000;
             font-size: 14px;
         }
+        .gray {
+             -webkit-filter: grayscale(100%);
+             -moz-filter: grayscale(100%);
+             -ms-filter: grayscale(100%);
+             -o-filter: grayscale(100%);
+
+             filter: grayscale(100%);
+
+             filter: gray;
+         }
     </style>
     <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
     <script src="js/jquery.kinMaxShow-1.1.min.js" type="text/javascript" charset="utf-8"></script>

@@ -222,14 +222,21 @@
 </table>
 <script type="text/javascript">
     function initialize() {
-        var point = new google.maps.LatLng(28.215514,113.070778);            // location, （纬度, 经度）
+        var point = new google.maps.LatLng(28.20976, 113.06445);            // location, （纬度, 经度）
         var option = {
             zoom: 12,
             center: point,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         }
+
         var obj = document.getElementById("container");                       // container
         var map = new google.maps.Map(obj, option);                           // show map
+
+        var marker = new google.maps.Marker({
+            position: point,
+            map: map,
+            title: '湖南中科本安新材料有限公司'
+        });
     }
 </script>
 </body>

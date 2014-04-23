@@ -6,7 +6,7 @@
                      height="87"/></td>
             <td width="36" rowspan="2">&nbsp;</td>
             <td width="637" height="35" align="right" valign="middle">
-                <img src="/images/weibo.jpg" width="67"
+                <img src="/images/weibo.jpg" class="gray" width="67"
                      height="24"/></td>
             <td width="88" align="right" valign="middle">
                 <select name="select">

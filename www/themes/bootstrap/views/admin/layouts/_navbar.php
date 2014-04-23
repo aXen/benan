@@ -26,6 +26,7 @@
                     array('label'=>'产品分类', 'url'=>array('category/index')),
                     array('label'=>'产品信息 ', 'url'=>array('product/index')),
                 )),
+                array('label'=>'施工案例', 'url'=>$this->createUrl('userCase/index')),
                 array('label'=>'帮助', 'url'=>'#', 'items'=>array(
                     array('label'=>'关于网站', 'url'=>array('home/page', 'view'=>'about')),
                     array('label'=>'联系我们 ', 'url'=>array('home/contact')),

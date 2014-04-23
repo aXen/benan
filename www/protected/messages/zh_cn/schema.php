@@ -18,6 +18,7 @@
         'Categories' =>'产品分类',
         'UserCase' =>'施工案例',
         'UserCases' =>'施工案例',
+        'User Cases' =>'施工案例',  // NOTE:
         'User' =>'用户',
         'Users' =>'用户',
 
