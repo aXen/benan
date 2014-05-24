@@ -179,7 +179,6 @@ class SiteController extends Controller
         ));
     }
 
-
     public function actionNetwork()
     {
         $dataProvider = new CActiveDataProvider('Product');
@@ -192,15 +191,23 @@ class SiteController extends Controller
         ));
     }
 
-    public function actionCases()
+    public function actionServiceIntro()
     {
         $dataProvider = new CActiveDataProvider('Product');
         $categories = Category::model()->findAll('parent_id=0');
         $category = $categories[0];
-        $this->render('cases', array(
+        $this->render('support', array(
             'dataProvider' => $dataProvider,
             'categories' => $categories,
             'model' => $category,
+        ));
+    }
+
+    public function actionCases()
+    {
+        $dataProvider = new CActiveDataProvider('UserCase');
+        $this->render('cases', array(
+            'dataProvider' => $dataProvider,
         ));
     }
 

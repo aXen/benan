@@ -34,6 +34,7 @@ $this->menu=array(
 		'create_time',
 		'modifier',
 		'modify_time',
+		'publish_time',
 	),
 )); ?>
 

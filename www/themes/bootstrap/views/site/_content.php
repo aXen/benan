@@ -10,7 +10,8 @@
                 <table width="426" border="0" cellspacing="8" cellpadding="0">
                     <tr>
                         <td width="192">
-                            <img src="/images/sg.jpg" width="201" height="80"/></td>
+                            <a href="<?php echo $this->createUrl('cases');?> ">
+                            <img src="/images/sg.jpg" width="201" height="80"/></a></td>
                         <td width="201">
                             <img src="/images/xs.jpg" width="201" height="80"/></td>
                     </tr>
@@ -25,7 +26,7 @@
                                                 <td width="70">
                                                     <img src="/images/js.jpg" width="62" height="22"/></td>
                                                 <td width="330"><span
-                                                        class="STYLE5">承担国家“863”项目紫外光固化涂料、聚苯胺防腐涂料的研究</span></td>
+                                                        class="STYLE5">承担国家“863”项目<br/>紫外光固化涂料、聚苯胺防腐涂料的研究</span></td>
                                             </tr>
                                         </table>
                                     </td>

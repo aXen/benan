@@ -1,0 +1,1 @@
+<img src="/images/benan.jpg" width="1234" height="260"/>

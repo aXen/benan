@@ -135,8 +135,12 @@
     <script type="text/javascript">
         $(function () {
             $("#kinMaxShow").kinMaxShow();
+//            $(".KMSPrefix_kinMaxShow_button li").click(
+//                function(){
+//                    alert("asdf");
+//                }
+//            );
         });
-
     </script>
 </head>
 

@@ -2,7 +2,7 @@
     <table width="998" border="0" cellspacing="0" cellpadding="0" style="z-index: 0">
         <tr>
             <td width="78" rowspan="2" align="left" valign="bottom">
-                <img src="/images/logo.jpg" width="77"
+                <img src="/images/logo.jpg" width="209"
                      height="87"/></td>
             <td width="36" rowspan="2">&nbsp;</td>
             <td width="637" height="35" align="right" valign="middle">
@@ -10,9 +10,7 @@
                      height="24"/></td>
             <td width="88" align="right" valign="middle">
                 <select name="select">
-                    <option>Language</option>
                     <option>中文</option>
-                    <option>English</option>
                 </select></td>
             <td width="117" align="right" valign="middle">
                 <input name="textfield" type="text" size="14"/>

@@ -166,7 +166,7 @@
                             <table width="720" border="0" cellspacing="0" cellpadding="0">
                                 <tr>
                                     <td height="40" align="left" valign="middle" background="images/line1.jpg"><span
-                                            class="STYLE5">UV产品</span></td>
+                                            class="STYLE5"><?php echo $model->name; ?></span></td>
                                 </tr>
                             </table>
                             <table width="721" height="15" border="0" cellpadding="0" cellspacing="0">

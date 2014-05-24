@@ -1,37 +1,25 @@
 <?php
 
 if ($dataProvider !== null)
-    for ($i = 0; $i < count($dataProvider->data); $i = $i + 4) {
+    for ($i = 0; $i < count($dataProvider->data); $i++) {
+        $usercase = $dataProvider->data[$i];
         ?>
         <table width="717" border="0" cellspacing="12" cellpadding="0">
+            <tbody>
             <tr>
-                <?php
-                for ($j = 0; $j < 4; $j++) {
-                    if ($i * 4 + $j < count($dataProvider->data)) {
-                        $usercase = $dataProvider->data[$i * 4 + $j];
-                        ?>
-                        <td height="16" align="center" valign="top"><a
-                                href="<?php echo $this->createUrl('case/' . $usercase->id . '.html'); ?>"><img
-                                    src="<?php echo $this->createUrl('images/case/' . $usercase->image); ?>" width="150" height="200" border="0"/></a></td>
-                    <?php
-                    }
-                }
-                ?>
+                <td width="180" height="16" rowspan="2" align="left" valign="top"><a
+                        href="<?php echo $this->createUrl('case/' . $usercase->id . '.html'); ?>"><img
+                            src="<?php echo $this->createUrl('images/case/' . $usercase->image); ?>" width="180"
+                            height="120"></a></td>
+                <td align="left" valign="top" class="STYLE4"><span
+                        class="fn-fs-14"><strong><?php echo $usercase->name; ?><a
+                                href="<?php echo $this->createUrl('case/' . $usercase->id . '.html'); ?>"></a></strong></span>
+                </td>
             </tr>
             <tr>
-                <?php
-                for ($j = 0; $j < 4; $j++) {
-                    if ($i * 4 + $j < count($dataProvider->data)) {
-                        $usercase = $dataProvider->data[$i * 4 + $j];
-                        ?>
-                        <td height="16" align="center" valign="top"><a
-                                href="<?php echo $this->createUrl('product/' . $usercase->id . '.html'); ?>"><?php echo $usercase->name; ?></a>
-                        </td>
-                    <?php
-                    }
-                }
-                ?>
+                <td align="left" valign="top"><?php echo $usercase->description; ?></td>
             </tr>
+            </tbody>
         </table>
     <?php
     }

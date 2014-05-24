@@ -40,7 +40,7 @@ class News extends CActiveRecord
 			array('title, type_name', 'length', 'max'=>200),
 			array('status, modifier', 'length', 'max'=>16),
 			array('creator', 'length', 'max'=>32),
-			array('create_time, modify_time', 'safe'),
+			array('create_time, modify_time, publish_time', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, title, content, type, type_name, hit, rank, status, creator, create_time, modifier, modify_time', 'safe', 'on'=>'search'),
@@ -76,6 +76,7 @@ class News extends CActiveRecord
 			'create_time' => '创建时间',
 			'modifier' => '更新者',
 			'modify_time' => '更新时间',
+			'publish_time' => '发布时间',
 		);
 	}
 

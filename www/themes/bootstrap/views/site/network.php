@@ -144,7 +144,7 @@
     </tr>
     <tr>
         <td align="center" valign="top">
-            <img src="/images/Products.jpg" width="1034" height="400"/>
+            <img src="/images/support.jpg" width="1234" height="260"/>
         </td>
     </tr>
     <tr>
@@ -153,41 +153,9 @@
                 <table width="996" cellpadding="0" cellspacing="8">
                     <tr>
                         <td width="221" align="left" valign="top">
-                            <table width="200" border="0" cellpadding="0" cellspacing="1">
-                                <tr>
-                                    <td height="25" bgcolor="#D5E1EE">
-                                        <div align="center" class="fn-fs-14">服务与支持</div>
-                                    </td>
-                                </tr>
-                            </table>
-                            <table width="200" border="0" cellpadding="0" cellspacing="1">
-                                <tr>
-                                    <td height="25" bgcolor="#F2F2F2">
-                                        <div align="center" class="fn-fs-14"><a href="serviceintro">服务介绍</a></div>
-                                    </td>
-                                </tr>
-                            </table>
-                            <table width="200" border="0" cellpadding="0" cellspacing="1">
-                                <tr>
-                                    <td height="25" bgcolor="#F2F2F2">
-                                        <div align="center" class="fn-fs-14"><a href="feedback">在线反馈</a></div>
-                                    </td>
-                                </tr>
-                            </table>
-                            <table width="200" border="0" cellpadding="0" cellspacing="1">
-                                <tr>
-                                    <td height="25" bgcolor="#F2F2F2">
-                                        <div align="center" class="fn-fs-14"><a href="mall">在线商城</a></div>
-                                    </td>
-                                </tr>
-                            </table>
-                            <table width="200" border="0" cellpadding="0" cellspacing="1">
-                                <tr>
-                                    <td height="25" bgcolor="#F2F2F2">
-                                        <div align="center" class="fn-fs-14"><a href="network">销售/服务网络</a></div>
-                                    </td>
-                                </tr>
-                            </table>
+                            <?php echo $this->renderPartial('_supportmenu', array(
+                                'dataProvider' => $dataProvider,
+                            )); ?><!-- supportmenu -->
                             <br/>
                         </td>
                         <td width="749" align="left" valign="top">
@@ -224,7 +192,7 @@
     function initialize() {
         var point = new google.maps.LatLng(28.20976, 113.06445);            // location, （纬度, 经度）
         var option = {
-            zoom: 12,
+            zoom: 15,
             center: point,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         }

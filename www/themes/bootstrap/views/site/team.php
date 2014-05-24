@@ -141,7 +141,9 @@
     </tr>
     <tr>
         <td align="center" valign="top">
-            <img src="/images/Products.jpg" width="1034" height="400"/>
+            <?php echo $this->renderPartial('_headerpic', array(
+                'dataProvider' => $dataProvider,
+            )); ?><!-- headerpic -->
         </td>
     </tr>
     <tr>

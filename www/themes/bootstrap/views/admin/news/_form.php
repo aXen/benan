@@ -2,6 +2,11 @@
 $cs=Yii::app()->clientScript;
 $baseUrl = Yii::app()->baseUrl;
 
+// datetimepicker
+$cs->registerScriptFile($baseUrl.'/widgets/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js', CClientScript::POS_END, array('charset'=>'UTF-8'));
+$cs->registerScriptFile($baseUrl.'/widgets/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js', CClientScript::POS_END, array('charset'=>'UTF-8'));
+$cs->registerCssFile($baseUrl.'/widgets/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css');
+
 // select
 $cs->registerScriptFile($baseUrl.'/widgets/bootstrap-select/bootstrap-select.js', CClientScript::POS_END, array('charset'=>'UTF-8'));
 //$cs->registerScriptFile($baseUrl.'/widgets/bootstrap-select/bootstrap-select.js', CClientScript::POS_END, array('charset'=>'UTF-8'));
@@ -45,6 +50,8 @@ $cs->registerCssFile($baseUrl.'/widgets/bootstrap-select/bootstrap-select.css');
 
     <?php echo $form->dropDownListRow($model,'rank',array('1'=>'1', '2'=>'2', '3'=>'3', '4'=>'4', '5'=>'5'), array('class'=>'span5 selectpicker','maxlength'=>16, 'placeholder'=>'请输入'.$model->getAttributeLabel('rank'))); ?>
 
+    <?php echo $form->textFieldRow($model,'publish_time',array('class'=>'span5 form_datetime', 'readonly'=>'true', 'placeholder'=>'请输入'.$model->getAttributeLabel('publish_time'))); ?>
+
 	<div class="form-actions">
 		<?php $this->widget('bootstrap.widgets.TbButton', array(
 			'buttonType'=>'submit',
@@ -57,6 +64,37 @@ $cs->registerCssFile($baseUrl.'/widgets/bootstrap-select/bootstrap-select.css');
 
 <script type="text/javascript">
     $(function(){
+        $('.form_datetime').datetimepicker({
+            language:  'zh-CN',
+            weekStart: 1,
+            todayBtn:  1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 2,
+            forceParse: 0,
+            showMeridian: 1
+        });
+        $('.form_date').datetimepicker({
+            language:  'zh-CN',
+            weekStart: 1,
+            todayBtn:  1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 2,
+            minView: 2,
+            forceParse: 0
+        });
+        $('.form_time').datetimepicker({
+            language:  'zh-CN',
+            weekStart: 1,
+            todayBtn:  1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 1,
+            minView: 0,
+            maxView: 1,
+            forceParse: 0
+        });
         $('.selectpicker').selectpicker();
     });
 </script>

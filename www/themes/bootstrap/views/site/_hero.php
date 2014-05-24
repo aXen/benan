@@ -1,5 +1,5 @@
 <!-- 代码 开始 -->
-<div id="kinMaxShow" style="z-index: -1">
+<div id="kinMaxShow">
     <?php
         foreach($heros as $i=>$hero)
         {     ?>
