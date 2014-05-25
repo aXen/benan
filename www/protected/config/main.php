@@ -10,6 +10,7 @@
 Yii :: setPathOfAlias('bootstrap', dirname(__FILE__) . '/../extensions/bootstrap');
 Yii :: setPathOfAlias('benan', dirname(__FILE__) . '/../extensions/benan');
 
+// 设置时区，影响时间格式
 date_default_timezone_set("Asia/Shanghai");
 
 // This is the main Web application configuration. Any writable
