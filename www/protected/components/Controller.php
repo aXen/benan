@@ -22,8 +22,6 @@ class Controller extends CController
 	public $breadcrumbs=array();
 
     public function getCreateContext(){
-        date_default_timezone_set("Asia/Shanghai");
-
         $context=array();
         $context['creator']=Yii::app()->user->name;
         $context['modifier']=Yii::app()->user->name;
