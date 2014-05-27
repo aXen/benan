@@ -32,7 +32,7 @@
 <!--                        </div>-->
                     </li>
                     <li><a href="<?php echo $this->createUrl('cases'); ?>" onmouseover="mopen('m4')"
-                           onmouseout="mclosetime()">施工案例</a>
+                           onmouseout="mclosetime()">合作伙伴</a>
 
 <!--                        <div id="m4" onmouseover="mcancelclosetime()"-->
 <!--                             onmouseout="mclosetime()">-->
