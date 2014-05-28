@@ -20,3 +20,12 @@
 #news-grid.grid-view .news-button-column {
     width: 75px;
 }
+
+/* for bootstrap */
+form hr{
+    margin-bottom: 0px;
+}
+
+form p.form-help{
+    margin-top: 10px;
+}
