@@ -57,7 +57,7 @@ $('.search-form form').submit(function(){
 		'name',
 		'category_id',
 		'category_name',
-		'description',
+		'brief',
 		'image',
 		/*
 		'status',

@@ -4,7 +4,7 @@
         <td width="1" align="left" valign="middle"></td>
         <td width="614" align="left" valign="middle"></td>
         <td width="154" rowspan="2" align="center">
-            <img src="/images/qrcode.png" width="73" height="74"/></td>
+            <img src="<?php echo $this->createUrl('images/qrcode.png'); ?>" width="73" height="74"/></td>
     </tr>
     <tr>
         <td height="12" colspan="4" align="middle" valign="middle"><span class="STYLE2">关于我们</span>　｜　<span class="STYLE2">意见反馈</span>　｜　<span class="STYLE2">官方博客</span>　｜　<span class="STYLE2">使用指南</span>　｜　<span class="STYLE2">网站地图</span></span>

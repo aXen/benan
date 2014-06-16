@@ -17,7 +17,7 @@ if ($model->products !== null)
                 </td>
             </tr>
             <tr>
-                <td align="left" valign="top"><?php echo $product->description; ?></td>
+                <td align="left" valign="top"><?php echo $product->brief; ?></td>
             </tr>
             </tbody>
         </table>

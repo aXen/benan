@@ -35,11 +35,11 @@
                 <table width="720" border="0" cellspacing="0" cellpadding="0">
                     <tr>
                         <td width="650" height="40" align="left" valign="middle"
-                            background="images/line1.jpg">
+                            background="<?php echo $this->createUrl('images/line1.jpg'); ?>">
                             <div align="center" class="STYLE5"><?php echo $model->title; ?><br/>
                             </div>
                         </td>
-                        <td width="70" align="center" valign="middle" background="images/line1.jpg"><a
+                        <td width="70" align="center" valign="middle" background="<?php echo $this->createUrl('images/line1.jpg'); ?>"><a
                                 href="News.html">&lt;&nbsp;返回</a></td>
                     </tr>
                 </table>

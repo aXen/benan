@@ -36,7 +36,7 @@ class UserCase extends CActiveRecord
 		return array(
 			array('name, type, description, image', 'required'),
 			array('type', 'numerical', 'integerOnly'=>true),
-			array('name, type_name, image', 'length', 'max'=>200),
+			array('name, type_name, brief, image', 'length', 'max'=>200),
 			array('status, modifier', 'length', 'max'=>16),
 			array('creator', 'length', 'max'=>32),
 			array('create_time, modify_time', 'safe'),
@@ -67,6 +67,7 @@ class UserCase extends CActiveRecord
 			'name' => '名称',
 			'type' => '类别',
 			'type_name' => '类别',
+            'brief' => '摘要',
 			'description' => '描述',
 			'image' => '图片',
 			'status' => '状态',

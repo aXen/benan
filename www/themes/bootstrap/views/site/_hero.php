@@ -5,7 +5,7 @@
         {     ?>
     <div>
         <a href="#" target="_blank">
-            <img src="/images/heros/<?php echo $hero->picture; ?>"/></a>
+            <img src=" <?php echo $this->createUrl('images/heros/'.$hero->picture); ?>"/></a>
     </div>
     <?php
         }

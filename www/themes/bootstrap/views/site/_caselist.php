@@ -17,7 +17,7 @@ if ($dataProvider !== null)
                 </td>
             </tr>
             <tr>
-                <td align="left" valign="top"><?php echo $usercase->description; ?></td>
+                <td align="left" valign="top"><?php echo $usercase->brief; ?></td>
             </tr>
             </tbody>
         </table>

@@ -1,15 +1,15 @@
 <?php
 $this->breadcrumbs=array(
-	'施工案例'=>array('index'),
+	'合作伙伴'=>array('index'),
 	'创建',
 );
 
 $this->menu=array(
-	array('label'=>'施工案例列表','url'=>array('index')),
-	array('label'=>'管理施工案例','url'=>array('admin')),
+	array('label'=>'合作伙伴列表','url'=>array('index')),
+	array('label'=>'管理合作伙伴','url'=>array('admin')),
 );
 ?>
 
-<h1>创建 施工案例</h1>
+<h1>创建 合作伙伴</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

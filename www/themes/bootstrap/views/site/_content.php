@@ -11,9 +11,9 @@
                     <tr>
                         <td width="192">
                             <a href="<?php echo $this->createUrl('cases');?> ">
-                            <img src="/images/sg.jpg" width="201" height="80"/></a></td>
+                            <img src="<?php echo $this->createUrl('images/sg.jpg'); ?>" width="201" height="80"/></a></td>
                         <td width="201">
-                            <img src="/images/xs.jpg" width="201" height="80"/></td>
+                            <img src="<?php echo $this->createUrl('images/xs.jpg'); ?>" width="201" height="80"/></td>
                     </tr>
                     <tr>
                         <td height="38" colspan="2" align="right">
@@ -24,7 +24,7 @@
                                         <table width="400" border="0" cellspacing="0" cellpadding="0">
                                             <tr>
                                                 <td width="70">
-                                                    <img src="/images/js.jpg" width="62" height="22"/></td>
+                                                    <img src="<?php echo $this->createUrl('images/js.jpg'); ?>" width="62" height="22"/></td>
                                                 <td width="330"><span
                                                         class="STYLE5">承担国家“863”项目<br/>紫外光固化涂料、聚苯胺防腐涂料的研究</span></td>
                                             </tr>
@@ -44,14 +44,14 @@
                                         <table width="400" border="0" cellspacing="0" cellpadding="0">
                                             <tr>
                                                 <td width="102" height="25" align="left" valign="top">
-                                                    <img src="/images/zj.jpg"
+                                                    <img src="<?php echo $this->createUrl('images/zj.jpg'); ?>"
                                                          width="62" height="22"/>
                                                 </td>
                                                 <td colspan="2">&nbsp;</td>
                                             </tr>
                                             <tr>
                                                 <td width="102" rowspan="2">
-                                                    <img src="/images/zp.jpg" width="102" height="126"/></td>
+                                                    <img src="<?php echo $this->createUrl('images/zp.jpg'); ?>" width="102" height="126"/></td>
                                                 <td width="13" rowspan="2">&nbsp;</td>
                                                 <td width="285" height="30" align="left" valign="top"><span
                                                         class="STYLE6">王佛松</span><span class="STYLE9"><span

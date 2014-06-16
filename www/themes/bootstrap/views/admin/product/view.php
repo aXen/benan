@@ -22,6 +22,7 @@ $this->menu=array(
 		'name',
 		'category_id',
 		'category_name',
+		'brief',
 		'description',
 		'image',
 		'status',

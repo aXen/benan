@@ -29,3 +29,9 @@ form hr{
 form p.form-help{
     margin-top: 10px;
 }
+
+div.view{
+    border: gray 2px dashed;
+    margin-top: 15px;
+    padding:10px;
+}

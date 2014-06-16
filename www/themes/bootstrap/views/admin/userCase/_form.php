@@ -27,6 +27,8 @@ $cs->registerCssFile($baseUrl.'/widgets/bootstrap-select/bootstrap-select.css');
 	<?php echo $form->textFieldRow($model,'type_name',array('class'=>'span5','maxlength'=>200, 'placeholder'=>'请输入'.$model->getAttributeLabel('type_name'))); ?>
 </div>
 
+<?php echo $form->textFieldRow($model, 'brief', array('class' => 'span5', 'maxlength' => 200, 'placeholder' => '请输入' . $model->getAttributeLabel('brief'))); ?>
+
 <!--	--><?php //echo $form->textAreaRow($model,'description',array('rows'=>6, 'cols'=>50, 'class'=>'span8')); ?>
 
 <?php $this->widget('application.extensions.TheCKEditor.theCKEditorWidget', array(

@@ -36,7 +36,7 @@ class Product extends CActiveRecord
 		return array(
 			array('name, category_id, description, image', 'required'),
 			array('category_id', 'numerical', 'integerOnly'=>true),
-			array('name, category_name, image', 'length', 'max'=>200),
+			array('name, category_name, brief, image', 'length', 'max'=>200),
 			array('status, modifier', 'length', 'max'=>16),
 			array('creator', 'length', 'max'=>32),
 			array('create_time, modify_time', 'safe'),
@@ -67,6 +67,7 @@ class Product extends CActiveRecord
 			'name' => '名称',
 			'category_id' => '产品分类',
 			'category_name' => '产品分类',
+			'brief' => '摘要',
 			'description' => '描述',
 			'image' => '图片',
 			'status' => '状态',

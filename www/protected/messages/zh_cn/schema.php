@@ -16,9 +16,9 @@
         'Products' =>'产品',
         'Category' =>'产品分类',
         'Categories' =>'产品分类',
-        'UserCase' =>'施工案例',
-        'UserCases' =>'施工案例',
-        'User Cases' =>'施工案例',  // NOTE:
+        'UserCase' =>'合作伙伴',
+        'UserCases' =>'合作伙伴',
+        'User Cases' =>'合作伙伴',  // NOTE:
         'User' =>'用户',
         'Users' =>'用户',
 
@@ -63,5 +63,6 @@
         'single page' => '是否单页面',
         'predefined' => '系统预定义',
         'page content' => '页面内容',
+        'brief' => '摘要',
 	);
 ?>

@@ -11,13 +11,13 @@ $cs->registerCssFile($baseUrl.'/widgets/bootstrap-select/bootstrap-select.css');
 ?>
 <?php
 $this->breadcrumbs=array(
-	'施工案例'=>array('index'),
+	'合作伙伴'=>array('index'),
 	'管理',
 );
 
 $this->menu=array(
-	array('label'=>'施工案例列表','url'=>array('index')),
-	array('label'=>'创建施工案例','url'=>array('create')),
+	array('label'=>'合作伙伴列表','url'=>array('index')),
+	array('label'=>'创建合作伙伴','url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -34,7 +34,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>管理 施工案例</h1>
+<h1>管理 合作伙伴</h1>
 
 <p>
     你可以在要查询的值前输入 比较符（<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>

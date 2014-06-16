@@ -1,1 +1,1 @@
-<img src="/images/benan.jpg" width="1234" height="260"/>
+<img src="<?php echo $this->createUrl('images/benan.jpg'); ?>" width="1234" height="260"/>

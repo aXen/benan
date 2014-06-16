@@ -129,8 +129,24 @@ class HeroController extends AdminController
 	public function actionIndex()
 	{
 		$dataProvider=new CActiveDataProvider('Hero');
+        $criteria = new CDbCriteria;
+//        $criteria->select='title';  // 只选择 'title' 列
+//        $criteria->condition='postID=:postID';
+//        $criteria->params=array(':postID'=>10);
+        $criteria->limit = 20;
+        $criteria->offset = 0;
+        $heros = Hero::model()->findAll($criteria); // $params 不需要了
+        $items = array();
+        foreach($heros as $hero){
+            array_push($items, array(
+                'image'=>Yii::app()->baseUrl.'/images/heros/'.$hero->picture,
+                'label'=>$hero->title,
+                'caption'=>$hero->description,
+            ));
+        }
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
+            'items'=>$items
 		));
 	}
 

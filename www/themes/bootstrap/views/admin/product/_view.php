@@ -16,6 +16,10 @@
 	<?php echo CHtml::encode($data->category_name); ?>
 	<br />
 
+    <b><?php echo CHtml::encode($data->getAttributeLabel('brief')); ?>:</b>
+    <?php echo CHtml::encode($data->brief); ?>
+    <br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('description')); ?>:</b>
 	<?php echo CHtml::encode($data->description); ?>
 	<br />

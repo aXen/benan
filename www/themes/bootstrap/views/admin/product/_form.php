@@ -15,6 +15,8 @@
     <?php echo $form->textFieldRow($model, 'category_name', array('class' => 'span5', 'maxlength' => 200, 'placeholder' => '请输入' . $model->getAttributeLabel('category_name'))); ?>
 </div>
 
+<?php echo $form->textFieldRow($model, 'brief', array('class' => 'span5', 'maxlength' => 200, 'placeholder' => '请输入' . $model->getAttributeLabel('brief'))); ?>
+
 <?php $this->widget('application.extensions.TheCKEditor.theCKEditorWidget', array(
     'model' => $model, # Data-Model (form model)
     'attribute' => 'description', # Attribute in the Data-Model
